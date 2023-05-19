@@ -19,28 +19,28 @@ function Hero() {
 
             <div className="col-lg-3 col-6">
               <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter">54</span>
                 <p>Clients</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-6">
               <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">66</span>
                 <p>Projects</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-6">
               <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter">7</span>
                 <p>Support</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-6">
               <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter">09</span>
                 <p>Workers</p>
               </div>
             </div>

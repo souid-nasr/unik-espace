@@ -588,7 +588,7 @@ section {
   margin-right: 20px;
 }
 
-.featured-services .service-item .icon i {
+.featured-services .service-item .icon  {
   color: #001f8d;
   font-size: 48px;
   transition: 0.3s;
@@ -598,7 +598,7 @@ section {
   background: #fff;
 }
 
-.featured-services .service-item:hover .icon i {
+.featured-services .service-item:hover .icon  {
   color: var(--color-primary);
 }
 
@@ -631,7 +631,7 @@ section {
 
 .featured-services .service-item:hover .title,
 .featured-services .service-item:hover .readmore,
-.featured-services .service-item:hover .icon i {
+.featured-services .service-item:hover .icon  {
   color: var(--color-primary);
 }
 

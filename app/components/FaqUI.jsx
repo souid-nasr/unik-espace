@@ -2,7 +2,7 @@
 import React from "react";
 import { HiArrowCircleDown, HiX } from "react-icons/hi";
 
-const FaqUI = ({ title, children, Id, Index, setIndex }) => {
+const FaqUI = ({ title, answer, Id, Index, setIndex }) => {
   const handleSetIndex = (Id) => Index !== Id && setIndex(Id);
 
   return (
@@ -27,7 +27,7 @@ const FaqUI = ({ title, children, Id, Index, setIndex }) => {
 
       {Index === Id && (
         <div className=" bg-gray-50 pl-10  font-semibold blue-pink-500 w-3/4 h-auto  rounded-md p-4 border-l-2 border-blue-300 mb-2 ">
-          {children}
+          {answer}
         </div>
       )}
     </>

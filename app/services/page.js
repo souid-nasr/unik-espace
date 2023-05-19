@@ -33,7 +33,7 @@ function page() {
                   <Image src={service_1} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="service-details.html" className="stretched-link">
+                  <a href="/service" className="stretched-link">
                     Storage
                   </a>
                 </h3>
@@ -55,7 +55,7 @@ function page() {
                   <Image src={service_2} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="service-details.html" className="stretched-link">
+                  <a href="/service" className="stretched-link">
                     Logistics
                   </a>
                 </h3>
@@ -77,7 +77,7 @@ function page() {
                   <Image src={service_3} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="service-details.html" className="stretched-link">
+                  <a href="/service" className="stretched-link">
                     Cargo
                   </a>
                 </h3>
@@ -99,7 +99,7 @@ function page() {
                   <Image src={service_4} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="service-details.html" className="stretched-link">
+                  <a href="/service" className="stretched-link">
                     Cargo
                   </a>
                 </h3>
@@ -121,7 +121,7 @@ function page() {
                   <Image src={service_1} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="service-details.html" className="stretched-link">
+                  <a href="/service" className="stretched-link">
                     Cargo
                   </a>
                 </h3>
@@ -143,7 +143,7 @@ function page() {
                   <Image src={service_2} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="service-details.html" className="stretched-link">
+                  <a href="/service" className="stretched-link">
                     Cargo
                   </a>
                 </h3>

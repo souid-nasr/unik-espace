@@ -31,9 +31,10 @@ const Accordion = () => {
       {data.map((data) => {
         return (
           <FaqUI
+            key={data.id}
             title={data.question}
             Id={data.id}
-            children={data.answer}
+            answer={data.answer}
             Index={Index}
             setIndex={setIndex}
           />

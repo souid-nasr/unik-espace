@@ -16,7 +16,7 @@ function Breadcrumbs({title,subtitle}) {
     <nav>
       <div className="container">
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li>{title}</li>
         </ol>
       </div>

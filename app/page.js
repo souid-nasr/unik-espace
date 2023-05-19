@@ -1,9 +1,28 @@
-import Image from 'next/image'
+import Image from "next/image";
+import Hero from "./components/Hero";
+import Featured from "./components/Featured";
+import About from "./components/About";
+import Services from "./components/Services";
+import Call from "./components/Call";
+import Features from "./components/Features";
+import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+import Faq from "./components/Faq";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <h1 style={{fontSize:"100px"}}>under construction...</h1>
-    </main>
-  )
+    <>
+      <Hero />
+      <main id="main">
+        <Featured />
+        <About />
+        <Services />
+        <Call />
+        <Features />
+        <Pricing />
+        {/* <Testimonials /> */}
+        <Faq />
+      </main>
+    </>
+  );
 }

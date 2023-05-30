@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoTools } from "react-icons/go";
-
+import Link from 'next/link';
 function Featured() {
   return (
     <section id="featured-services" className="featured-services">
@@ -13,7 +13,7 @@ function Featured() {
           <div>
             <h4 className="title">Construction</h4>
             <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            <a href="/services" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></a>
+            <Link href="/services" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></Link>
           </div>
         </div>
 
@@ -23,7 +23,7 @@ function Featured() {
           <div>
             <h4 className="title">Livraison</h4>
             <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            <a href="/service" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></a>
+            <Link href="/service" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></Link>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ function Featured() {
           <div>
             <h4 className="title">Instalation</h4>
             <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            <a href="/services" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></a>
+            <Link href="/services" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></Link>
           </div>
         </div>
 

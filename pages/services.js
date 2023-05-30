@@ -4,6 +4,7 @@ import service_2 from "../assets/img/logistics-service.jpg";
 import service_3 from "../assets/img/cargo-service.jpg";
 import service_4 from "../assets/img/storage-service.jpg";
 import Image from "next/image";
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Featured from "@/components/Featured";
 import Features from "@/components/Features";
@@ -33,9 +34,9 @@ function page() {
                   <Image src={service_1} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="/service" className="stretched-link">
+                  <Link href="/service" className="stretched-link">
                     Storage
-                  </a>
+                  </Link>
                 </h3>
                 <p>
                   Cumque eos in qui numquam. Aut aspernatur perferendis sed
@@ -55,9 +56,9 @@ function page() {
                   <Image src={service_2} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="/service" className="stretched-link">
+                  <Link href="/service" className="stretched-link">
                     Logistics
-                  </a>
+                  </Link>
                 </h3>
                 <p>
                   Asperiores provident dolor accusamus pariatur dolore nam id
@@ -77,9 +78,9 @@ function page() {
                   <Image src={service_3} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="/service" className="stretched-link">
+                  <Link href="/service" className="stretched-link">
                     Cargo
-                  </a>
+                  </Link>
                 </h3>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -99,9 +100,9 @@ function page() {
                   <Image src={service_4} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="/service" className="stretched-link">
+                  <Link href="/service" className="stretched-link">
                     Cargo
-                  </a>
+                  </Link>
                 </h3>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -121,9 +122,9 @@ function page() {
                   <Image src={service_1} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="/service" className="stretched-link">
+                  <Link href="/service" className="stretched-link">
                     Cargo
-                  </a>
+                  </Link>
                 </h3>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -143,9 +144,9 @@ function page() {
                   <Image src={service_2} alt="" className="img-fluid" />
                 </div>
                 <h3>
-                  <a href="/service" className="stretched-link">
+                  <Link href="/service" className="stretched-link">
                     Cargo
-                  </a>
+                  </Link>
                 </h3>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut

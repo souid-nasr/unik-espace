@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 function Breadcrumbs({title,subtitle}) {
   return (
     <div><div className="breadcrumbs">
@@ -16,7 +16,7 @@ function Breadcrumbs({title,subtitle}) {
     <nav>
       <div className="container">
         <ol>
-          <li><a href="/">Home</a></li>
+          <li><Link href="/">Home</Link></li>
           <li>{title}</li>
         </ol>
       </div>

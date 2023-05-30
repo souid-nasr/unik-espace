@@ -1,8 +1,8 @@
 import React from "react";
 import about_img from "../assets/img/about.jpg";
 import Image from "next/image";
-import Stats from "../components/Stats";
-import Breadcrumbs from "../components/Breadcrumbs";
+import Stats from "@/components/Stats";
+import Breadcrumbs from "@/components/Breadcrumbs";
 function About() {
   return (
     <div>

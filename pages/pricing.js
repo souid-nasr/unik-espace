@@ -1,6 +1,6 @@
 import React from "react";
-import Breadcrumbs from "../components/Breadcrumbs";
-import Pricing from "../components/Pricing";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Pricing from "@/components/Pricing";
 
 function page() {
   return (

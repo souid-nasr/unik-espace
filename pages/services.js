@@ -4,9 +4,9 @@ import service_2 from "../assets/img/logistics-service.jpg";
 import service_3 from "../assets/img/cargo-service.jpg";
 import service_4 from "../assets/img/storage-service.jpg";
 import Image from "next/image";
-import Breadcrumbs from "../components/Breadcrumbs";
-import Featured from "../components/Featured";
-import Features from "../components/Features";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Featured from "@/components/Featured";
+import Features from "@/components/Features";
 function page() {
   return (
     <div>

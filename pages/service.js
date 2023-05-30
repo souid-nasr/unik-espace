@@ -1,7 +1,7 @@
 import React from "react";
 import service from "../assets/img/service-details.jpg";
 import Image from "next/image";
-import Breadcrumbs from "../components/Breadcrumbs";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 function page() {
   return (

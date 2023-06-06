@@ -2,6 +2,7 @@ import React from 'react'
 import cuisine from "../assets/img/cuisine/kitchen_1920.jpg";
 import dressing from "../assets/img/dressing/dressing_1280.jpg";
 import bibliotheque from "../assets/img/bibliotheque/bibliotheque_1.jpg";
+import Link from 'next/link';
 import Image from 'next/image'
 function Products() {
   return (
@@ -30,9 +31,9 @@ Nous vous proposons la possibilité d’aménager l’ensemble de votre habitat 
                 <div className="icon">
                   <i className="bi bi-activity"></i>
                 </div>
-                <a href="/portfolio/cuisines" className="stretched-link">
+                <Link href="/portfolio/cuisines" className="stretched-link">
                   <h3>Cuisines</h3>
-                </a>
+                </Link>
                 {/* <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p> */}
               </div>
             </div>

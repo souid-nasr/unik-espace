@@ -60,7 +60,6 @@ function Footer() {
     &copy; Copyright <strong><span>Unik Group</span></strong>. All Rights Reserved
   </div>
   <div className="credits">
-    
   Designed by <a href="https://nasrsouid.vercel.app/">Nasr</a>
   </div>
 </div>

@@ -7,45 +7,49 @@ function About() {
   return (
     <div>
       <Breadcrumbs
-        title="About"
-        subtitle="Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem."
+        title="A propos "
+        subtitle="Avec Unik Espace, votre interlocuteur vous accompagne de A à Z dans la réalisation de votre projet : cuisines, dressings, placards, bibliothèques, mobiliers de salon, séparations de pièces et lits relevables.
+        Nous vous proposons la possibilité d’aménager l’ensemble de votre habitat sur-mesure.
+        "
       />
       <section id="about" className="about">
         <div className="container" data-aos="fade-up">
           <div className="row gy-4">
             <div className="col-lg-6 position-relative align-self-start order-lg-last order-first">
               <Image src={about_img} alt="/" className="img-fluid" />{" "}
-              <a
+              {/* <a
                 href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                 className="glightbox play-btn"
-              ></a>
+              ></a> */}
             </div>
             <div className="col-lg-6 content order-last  order-lg-first">
               <h3>About Us</h3>
               <p>
-                Dolor iure expedita id fuga asperiores qui sunt consequatur
-                minima. Quidem voluptas deleniti. Sit quia molestiae quia quas
-                qui magnam itaque veritatis dolores. Corrupti totam ut eius
-                incidunt reiciendis veritatis asperiores placeat.
+                … avec Unik Espace qui est spécialiste de l’aménagement
+                d’intérieur sur mesure : dressings, placards, bibliothèques,
+                cuisines depuis 2016
               </p>
               <ul>
                 <li data-aos="fade-up" data-aos-delay="100">
                   <i className="bi bi-diagram-3"></i>
                   <div>
-                    <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                    <h5>UNE LARGE GAMME DE PRODUITS</h5>
                     <p>
-                      Magni facilis facilis repellendus cum excepturi quaerat
-                      praesentium libre trade
+                      Avec la sélection rigoureuse de nos fournisseurs nous
+                      pouvons proposer un large choix en termes de styles, de
+                      matières et de finitions qui nous permettrons de répondre
+                      au plus près à vos attentes.
                     </p>
                   </div>
                 </li>
                 <li data-aos="fade-up" data-aos-delay="200">
                   <i className="bi bi-fullscreen-exit"></i>
                   <div>
-                    <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+                    <h5>DES CONSEILS ADAPTÉS À VOS BESOINS</h5>
                     <p>
-                      Quo totam dolorum at pariatur aut distinctio dolorum
-                      laudantium illo direna pasata redi
+                      Votre interlocuteur unique, de la conception au suivi de
+                      votre projet, vous conseillera et vous accompagnera tout
+                      au long de sa réalisation.
                     </p>
                   </div>
                 </li>

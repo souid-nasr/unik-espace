@@ -1,61 +1,130 @@
-import React from 'react'
-import hero_img from '../assets/img/hero-img.svg'
-import Image from 'next/image'
+"use client";
+import React, { useEffect, useState } from "react";
+import hero_img from "../assets/img/hero-img.svg";
+import cuisine from "../assets/img/cuisine/kitchen_1920.jpg";
+import dressing from "../assets/img/dressing/dressing_1280.jpg";
+import bibliotheque from "../assets/img/bibliotheque/bibliotheque_1.jpg";
+import Image from "next/image";
+import Link from "next/link";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Hero() {
+  const slides = [
+    {
+      url: cuisine,
+      title: "Cuisine",
+      path: "/cuisine",
+    },
+    {
+      url: dressing,
+      title: "dressing",
+      path: "/dressing",
+    },
+    {
+      url: bibliotheque,
+      title: "bibliotheque",
+      path: "/bibliotheque",
+    },
+  ];
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const goToNext = () => {
+    setCurrentSlide(currentSlide + 1);
+  };
   return (
-    <section id="hero" className="hero d-flex align-items-center">
-    <div className="container">
-      <div className="row gy-4 d-flex justify-content-between">
-        <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2 data-aos="fade-up">Your Lightning Fast Delivery Partner</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est possimus vel reprehenderit</p>
-
-          <form action="#" className="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-            <input type="text" className="form-control" placeholder="ZIP code or CitY"/>
-            <button type="submit" className="btn btn-primary">Search</button>
-          </form>
-
-          <div className="row gy-4" data-aos="fade-up" data-aos-delay="400">
-
-            <div className="col-lg-3 col-6">
-              <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter">54</span>
-                <p>Clients</p>
-              </div>
+    <Carousel>
+      <section
+        id="hero"
+        className="hero bg-[url('../assets/img/cuisine/kitchen_1920.jpg')] bg-cover	"
+      >
+        <div className="text-white uppercase bg-black/50 ">
+          <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+            <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
+              Cuisines{" "}
+            </h1>
+            <div className="flex justify-center items-center"></div>
+            <p className="md:text-2xl text-xl font-bold text-white">
+              Monitor your data analytics to increase revenue for BTB, BTC, &
+              SASS platforms.
+            </p>
+            <Link href="/portfolio/cuisines">
+              <button className="uppercase  rounded-full font-medium my-6 px-3 py-3 border-red border-2 text-white">
+                voir toutes les cuisines{" "}
+              </button>
+            </Link>
+                        <div className="carousel-boullt">
+              {" "}
+              {slides.map((slides, currentSlide) => {
+                <span key={currentSlide} onClick={() => goToNext(currentSlide)}>
+                  1
+                </span>;
+              })}
             </div>
-
-            <div className="col-lg-3 col-6">
-              <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter">66</span>
-                <p>Projects</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-6">
-              <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" className="purecounter">7</span>
-                <p>Support</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-6">
-              <div className="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" className="purecounter">09</span>
-                <p>Workers</p>
-              </div>
-            </div>
-
           </div>
         </div>
-
-        <div className="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <Image src={hero_img} className="img-fluid mb-3 mb-lg-0" alt=""/>
+      </section>
+      <section
+        id="hero"
+        className="hero bg-[url('../assets/img/dressing/dressing_1280.jpg')] bg-cover	"
+      >
+        <div className="text-white uppercase bg-black/50 ">
+          <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+            <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
+              Dressings
+            </h1>
+            <div className="flex justify-center items-center"></div>
+            <p className="md:text-2xl text-xl font-bold text-white">
+              Monitor your data analytics to increase revenue for BTB, BTC, &
+              SASS platforms.
+            </p>
+            <Link href="/">
+              <button className="uppercase  rounded-full font-medium my-6 px-3 py-3 border-red border-2 text-white">
+                voir toutes les dressings{" "}
+              </button>
+            </Link>
+            <div className="carousel-boullt">
+              {" "}
+              {slides.map((slides, currentSlide) => {
+                <span key={currentSlide} onClick={() => goToNext(currentSlide)}>
+                  1
+                </span>;
+              })}
+            </div>
+          </div>
         </div>
-
-      </div>
-    </div>
-  </section>
-  )
+      </section>
+      <section
+        id="hero"
+        className="hero bg-[url('../assets/img/bibliotheque/bibliotheque_1.jpg')] bg-cover	"
+      >
+        <div className="text-white uppercase bg-black/50 ">
+          <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+            <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
+              Bibliotheque.
+            </h1>
+            <div className="flex justify-center items-center"></div>
+            <p className="md:text-2xl text-xl font-bold text-white">
+              Monitor your data analytics to increase revenue for BTB, BTC, &
+              SASS platforms.
+            </p>
+            <Link href="/">
+              <button className="uppercase  rounded-full font-medium my-6 px-3 py-3 border-red border-2 text-white">
+                voir toutes les Bibliotheques{" "}
+              </button>
+            </Link>
+            <div className="carousel-boullt">
+              {" "}
+              {slides.map((slides, currentSlide) => {
+                <span key={currentSlide} onClick={() => goToNext(currentSlide)}>
+                  1
+                </span>;
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+    </Carousel>
+  );
 }
 
-export default Hero
+export default Hero;

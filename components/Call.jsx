@@ -8,9 +8,9 @@ function Call() {
 
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <Link className="cta-btn" href="/contact">Call To Action</Link>
+            <h3>Notre Showroom</h3>
+            <p> Duis aute irure dolor in reprehenderit</p>
+            {/* <Link className="cta-btn" href="/contact">Call To Action</Link> */}
           </div>
         </div>
 

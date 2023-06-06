@@ -6,6 +6,9 @@ import Call from "@/components/Call";
 import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq";
+import BasicSlider from "@/components/Hero2";
+import Products from "@/components/Products";
+import Functionality from "@/components/Functionality";
 
 export default function Home() {
   return (
@@ -14,8 +17,9 @@ export default function Home() {
       <main id="main">
         <Featured />
         <About />
-        <Services />
-        <Call />
+        <Products/>
+        <Functionality/>
++        <Call />
         <Features />
         <Pricing />
         {/* <Testimonials /> */}

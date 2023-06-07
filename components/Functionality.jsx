@@ -11,12 +11,12 @@ function Functionality() {
             <span>ESTHÉTISME & FONCTIONNALITÉ</span>
             <h2>ESTHÉTISME & FONCTIONNALITÉ</h2>{" "}
             <p>
-              L’optimisation dans les espaces de rangement est primordiale.
-              C’est pourquoi nos produits sont sur mesure pour s’adapter à vos
+              L&#39;optimisation dans les espaces de rangement est primordiale.
+              C&#39;est pourquoi nos produits sont sur mesure pour s&#39;adapter à vos
               dimensions. Hauteur, largeur, profondeur.
             </p>
             <p>
-              Espaces spécifiques, pas d’inquiétude, nous nous adaptererons afin
+              Espaces spécifiques, pas d&#39;inquiétude, nous nous adaptererons afin
               de vous proposer un aménagement optimal.
             </p>
           </div>
@@ -37,7 +37,7 @@ function Functionality() {
                 <div className="tab-pane fade show active" id="tab1">
                   <p className="fst-italic">
                     Un grand nombre de coloris et de matières sont disponibles
-                    afin de concevoir ensemble l’aménagement intérieur ou la
+                    afin de concevoir ensemble l&#39;aménagement intérieur ou la
                     cuisine qui vous correspond. Des compositions et modèles
                     quasi infinies pour une réalisation à votre image.
                   </p>
@@ -47,7 +47,7 @@ function Functionality() {
                     <h4>QUALITÉ</h4>
                   </div>
                   <p>
-                    Sélection de fournisseurs d’après leur créativité et la
+                    Sélection de fournisseurs d&#39;après leur créativité et la
                     qualité de leurs produits que nous avons développés selon la
                     qualité et la diversité notre offre.
                   </p>
@@ -58,7 +58,7 @@ function Functionality() {
                   </div>
                   <p>
                     Nous souhaitons entretenir avec nos clients une relation
-                    fondée sur l’échange, le conseil et la confiance, en dehors
+                    fondée sur l&#39;échange, le conseil et la confiance, en dehors
                     toute pratique commerciale agressive.
                   </p>
 
@@ -67,8 +67,8 @@ function Functionality() {
                     <h4>UN SAVOIR FAIRE..</h4>
                   </div>
                   <p>
-                    Plus de 07 ans d’expériences au service de nos clients.
-                    Ainsi qu’une collaboration pérenne avec nos menuisiers
+                    Plus de 07 ans d&#39;expériences au service de nos clients.
+                    Ainsi qu&#39;une collaboration pérenne avec nos menuisiers
                     installateurs nous assure un service réactif et de qualité.
                   </p>
                 </div>

@@ -15,8 +15,8 @@ function About() {
               <h2>SUBLIMER VOTRE INTÉRIEUR </h2>{" "}
             </div>
             <p>
-              … avec Unik Espace qui est spécialiste de l’aménagement
-              d’intérieur sur mesure : dressings, placards, bibliothèques,
+              … avec Unik Espace qui est spécialiste de l&#39;aménagement
+              d&#39;intérieur sur mesure : dressings, placards, bibliothèques,
               cuisines depuis 2016 à Tunisie.
             </p>
             <ul>

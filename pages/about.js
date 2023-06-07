@@ -9,7 +9,7 @@ function AboutPage() {
       <Breadcrumbs
         title="NOTRE SOCIETE"
         subtitle="Avec Unik Espace, votre interlocuteur vous accompagne de A à Z dans la réalisation de votre projet : cuisines, dressings, placards, bibliothèques, mobiliers de salon, séparations de pièces et lits relevables.
-        Nous vous proposons la possibilité d’aménager l’ensemble de votre habitat sur-mesure."
+        Nous vous proposons la possibilité d&#39;aménager l&#39;ensemble de votre habitat sur-mesure."
       />
       <About/>
 

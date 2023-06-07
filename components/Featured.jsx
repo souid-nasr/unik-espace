@@ -11,9 +11,8 @@ function Featured() {
         <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
           <div className="icon flex-shrink-0"><GoTools className=""></GoTools></div>
           <div>
-            <h4 className="title">Construction</h4>
-            <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            <Link href="/services" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></Link>
+            <h4 className="title">PROPOSITION D&#39;AGENCEMENT ET PROJECTIONS PLAN 3D</h4>
+            <p className="description">PRECONISATIONS ET ETUDE DE VOTRE PROJET VIRTUEL</p>
           </div>
         </div>
 
@@ -21,18 +20,16 @@ function Featured() {
         <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
           <div className="icon flex-shrink-0"><i className="bi bi-truck"></i></div>
           <div>
-            <h4 className="title">Livraison</h4>
-            <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            <Link href="/service" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></Link>
+            <h4 className="title">LIVRAISON ET INSTALLATION SUR PLACE</h4>
+            <p className="description">QUALIFICATION D&#39;UN MENUISIER POSEUR</p>
           </div>
         </div>
 
         <div className="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
           <div className="icon flex-shrink-0"><i className="bi bi-house-check"></i></div>
           <div>
-            <h4 className="title">Instalation</h4>
-            <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            <Link href="/services" className="readmore stretched-link"><span>Learn More</span><i className="bi bi-arrow-right"></i></Link>
+            <h4 className="title">RECEPTION DE FIN D&#39;INSTALLATION</h4>
+            <p className="description">RELATION CLIENTS</p>
           </div>
         </div>
 

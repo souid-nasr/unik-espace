@@ -110,7 +110,7 @@ const Slider = ({ slides }) => {
             <div className="text-white uppercase bg-black/50 ">
               <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
-                  Chambres d’enfants {" "}
+                  Chambres d&#39;enfants {" "}
                 </h1>
                 <div className="flex justify-center items-center"></div>
                 <p className="md:text-2xl text-xl font-bold text-white">
@@ -119,7 +119,7 @@ const Slider = ({ slides }) => {
                 </p>
                 <Link href="/portfolio/chambres">
                   <button className="uppercase  rounded-full font-medium my-6 px-3 py-3 border-red border-2 text-white">
-                    voir toutes les Chambres d’enfants{" "}
+                    voir toutes les Chambres d&#39;enfants{" "}
                   </button>
                 </Link>
               </div>

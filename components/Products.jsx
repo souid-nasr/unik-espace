@@ -33,7 +33,7 @@ function Products() {
     {
       _id: "id" + Math.random().toString(16).slice(2),
       url: chambres,
-      title: "Chambres d’enfants",
+      title: "Chambres d&#39;enfants",
       path: "/portfolio/chambres",
     },
     {
@@ -73,8 +73,8 @@ function Products() {
               Avec Unik Group, votre interlocuteur vous accompagne de A à Z dans
               la réalisation de votre projet : cuisines, dressings,
               bibliothèques, habillages, sous escalier, séparations, chambrs
-              d’enfants et portes. Nous vous proposons la possibilité d’aménager
-              l’ensemble de votre habitat sur-mesure.
+              d&#39;enfants et portes. Nous vous proposons la possibilité d&#39;aménager
+              l&#39;ensemble de votre habitat sur-mesure.
             </p>
           </div>
 

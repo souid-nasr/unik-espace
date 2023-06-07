@@ -36,38 +36,44 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-yellow-500">
         <Link href="/" className="logo d-flex align-items-center">
-          <Image src={logo} width="50" height="35" alt="/" />
+          <Image src={logo} width="90" height="65" alt="/" />
         </Link>
         <nav id="navbar" className="navbar px-9">
           <ul>
             <li>
               <Link href="/" className="nav-link">
-              ACCUEIL
+                ACCUEIL
               </Link>
             </li>
             <li>
-              <Link href="/about" className="nav-link">NOTRE SOCIETE
-</Link>
+              <Link href="/about" className="nav-link">
+                NOTRE SOCIETE
+              </Link>
             </li>
             <li>
-              <Link href="/services" className="nav-link">AMENAGEMENTS</Link>
+              <Link href="/agencements" className="nav-link">
+                AMENAGEMENTS
+              </Link>
             </li>
             <li>
-           
-
-              <Link href="/pricing" className="nav-link"> REALISATIONS</Link>
+              <Link href="/portfolio" className="nav-link">
+                {" "}
+                REALISATIONS
+              </Link>
             </li>
             <li>
-        
-
-              <Link href="/pricing" className="nav-link">PRICING</Link>
+              <Link href="/pricing" className="nav-link">
+                PRICING
+              </Link>
             </li>
             <li>
-              <Link href="/contact" className="nav-link">CONTACT</Link>
+              <Link href="/contact" className="nav-link">
+                CONTACT
+              </Link>
             </li>
             <li>
-              <Link className="nav-link get-a-quote"  href="/appointment">
-              OBTENIR UN  DEVIS
+              <Link className="nav-link get-a-quote" href="/appointment">
+                OBTENIR UN DEVIS
               </Link>
             </li>
           </ul>
@@ -95,9 +101,9 @@ const Navbar = () => {
           >
             <div>
               <div className="flex w-full items-center justify-between">
-                <Link href="/">
+                {/* <Link href="/">
                   <Image src={logo} width="87" height="35" alt="/" />
-                </Link>
+                </Link> */}
                 <div
                   onClick={handleNav}
                   className="rounded-full shadow-lg shadow-yellow-500 text-yellow-500 p-3 cursor-pointer"
@@ -112,53 +118,61 @@ const Navbar = () => {
               </div>
             </div>
             <div className="py-3 flex flex-col">
-              <ul className="uppercase text-yellow-400">
-                <Link href="/">
+              <ul className="uppercase text-white">
+                <Link className="nav-link" href="/">
                   <li
                     onClick={() => setNav(false)}
-                    className="py-2  text-sm text-yellow-400"
+                    className="py-2 nav-link text-sm text-white"
                   >
-                    Home
+                    ACCUEIL
                   </li>
                 </Link>
-                <Link href="/about">
+                <Link className="nav-link" href="/about">
                   <li
                     onClick={() => setNav(false)}
-                    className="py-2 text-yellow-400 text-sm"
+                    className="py-2 nav-link text-white text-sm"
                   >
-                    About
+                    NOTRE SOCIETE
                   </li>
                 </Link>
-                <Link href="/services">
+                <Link className="nav-link" href="/agencements">
                   <li
                     onClick={() => setNav(false)}
-                    className="py-2 text-yellow-400 text-sm"
+                    className="py-2 nav-link text-white text-sm"
                   >
-                    Services
+                    AMENAGEMENTS
                   </li>
                 </Link>
-                <Link href="/pricing">
+                <Link className="nav-link"href="/agencements">
                   <li
                     onClick={() => setNav(false)}
-                    className=" py-2  text-yellow-400 text-sm"
+                    className="py-2 nav-link text-white text-sm"
                   >
-                    Pricing
+                  REALISATIONS
                   </li>
                 </Link>
-                <Link href="/contact">
+                <Link className="nav-link" href="/pricing">
                   <li
                     onClick={() => setNav(false)}
-                    className="py-2 text-yellow-400 text-sm"
+                    className="py-2 nav-link  text-white text-sm"
                   >
-                    Contact
+                    PRICING
+                  </li>
+                </Link>
+                <Link className="nav-link" href="/contact">
+                  <li
+                    onClick={() => setNav(false)}
+                    className="py-2  text-white text-sm"
+                  >
+                    CONTACT
                   </li>
                 </Link>
                 <li>
                   <Link
-                    className="py-2 text-yellow-400 text-sm"
+                    className="py-2 nav-link text-white text-sm"
                     href="/appointment"
                   >
-                    Get a Quote
+                    OBTENIR UN DEVIS
                   </Link>
                 </li>
               </ul>

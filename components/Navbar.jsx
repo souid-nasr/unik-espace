@@ -9,7 +9,7 @@ import logo from "../assets/img/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("rgba(0, 0, 0, 0.9)");
+  const [color, setColor] = useState("rgba(0, 0, 0, 0.1)");
   const [textColor, setTextColor] = useState("white");
 
   const handleNav = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
         setColor("rgba(0, 0, 0, 0.7)");
         setTextColor("#000000");
       } else {
-        setColor("rgba(0, 0, 0, 0.9)");
+        setColor("rgba(0, 0, 0, 0.1)");
         setTextColor("#ffffff");
       }
     };
@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed left-0 top-0 w-full z-10 ease-in duration-300 text-white"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-yellow-500">
         <Link href="/" className="logo d-flex align-items-center">
@@ -41,25 +41,33 @@ const Navbar = () => {
         <nav id="navbar" className="navbar px-9">
           <ul>
             <li>
-              <Link href="/" className="">
-                Home
+              <Link href="/" className="nav-link">
+              ACCUEIL
               </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/about" className="nav-link">NOTRE SOCIETE
+</Link>
             </li>
             <li>
-              <Link href="/services">Services</Link>
+              <Link href="/services" className="nav-link">AMENAGEMENTS</Link>
             </li>
             <li>
-              <Link href="/pricing">Pricing</Link>
+           
+
+              <Link href="/pricing" className="nav-link"> REALISATIONS</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+        
+
+              <Link href="/pricing" className="nav-link">PRICING</Link>
             </li>
             <li>
-              <Link className="get-a-quote" href="/appointment">
-                Get a Quote
+              <Link href="/contact" className="nav-link">CONTACT</Link>
+            </li>
+            <li>
+              <Link className="nav-link get-a-quote"  href="/appointment">
+              OBTENIR UN  DEVIS
               </Link>
             </li>
           </ul>
@@ -132,7 +140,7 @@ const Navbar = () => {
                 <Link href="/pricing">
                   <li
                     onClick={() => setNav(false)}
-                    className="py-2 text-yellow-400 text-sm"
+                    className=" py-2  text-yellow-400 text-sm"
                   >
                     Pricing
                   </li>

@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar2";
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";

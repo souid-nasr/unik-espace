@@ -1,11 +1,12 @@
 import React from 'react';
-
+import Link from 'next/link';
 const Navbar = (props) => {
   return (
     <nav className="ContainerNav">
-      <span className="MainNav">Fake Navbar</span>
+      <span className="MainNav">Unik Espace</span>
       <div className="LinksNav">
-        <span>Home</span>
+        <Link href="/">ACCUEIL
+</Link>
         <span>Link A</span>
         <span>Link B</span>
       </div>

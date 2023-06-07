@@ -6,50 +6,51 @@ import Kichen_2 from "@/assets/img/cuisine/kitchen_2.jpg";
 
 import Image from "next/image";
 import { ImCancelCircle } from "react-icons/im";
-
+import Gallery from "@/components/Gallery";
+const data = [
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 1",
+    image: Kichen_1,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 2",
+    image: Kichen_2,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 3",
+    image: Kichen_1,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 4",
+    image: Kichen_2,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 5",
+    image: Kichen_2,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 6",
+    image: Kichen_1,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 7",
+    image: Kichen_2,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 8",
+    image: Kichen_1,
+  },
+];
 const ModalImage = () => {
-  const data = [
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 1",
-      image: Kichen_1,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 2",
-      image: Kichen_2,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 3",
-      image: Kichen_1,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 4",
-      image: Kichen_2,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 5",
-      image: Kichen_2,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 6",
-      image: Kichen_1,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 7",
-      image: Kichen_2,
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      title: "kichen 8",
-      image: Kichen_1,
-    },
-  ];
+  
   const [imageModal, setImageModal] = useState(false);
   const [imageSource, setImageSource] = useState("");
 
@@ -247,8 +248,7 @@ function Cuisine() {
               </div>
             </article>
           </div>
-
-              <ModalImage />
+<Gallery data={data}/>
 
         </div>
       </div>

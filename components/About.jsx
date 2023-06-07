@@ -10,8 +10,10 @@ function About() {
             <Image src={about_img} alt="/" className="img-fluid" />
           </div>
           <div className="col-lg-6 content order-last  order-lg-first">
-            <span>SUBLIMER VOTRE INTÉRIEUR </span>
-            <h2>SUBLIMER VOTRE INTÉRIEUR </h2>{" "}
+            <div className="section-header">
+              <span>SUBLIMER VOTRE INTÉRIEUR </span>
+              <h2>SUBLIMER VOTRE INTÉRIEUR </h2>{" "}
+            </div>
             <p>
               … avec Unik Espace qui est spécialiste de l’aménagement
               d’intérieur sur mesure : dressings, placards, bibliothèques,

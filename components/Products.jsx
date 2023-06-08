@@ -9,6 +9,7 @@ import separations from "../assets/img/separation/separation.jpg";
 import sousescaliers from "../assets/img/sousescalier/sousescalier.jpg";
 import Link from "next/link";
 import Image from "next/image";
+import {IoFingerPrintOutline} from 'react-icons/io5'
 
 function Products() {
   const data = [
@@ -33,7 +34,7 @@ function Products() {
     {
       _id: "id" + Math.random().toString(16).slice(2),
       url: chambres,
-      title: "Chambres d&#39;enfants",
+      title: "Chambres d’enfants",
       path: "/portfolio/chambres",
     },
     {
@@ -93,7 +94,7 @@ function Products() {
                     </div>
                     <div className="details position-relative">
                       <div className="icon">
-                        <i className="bi bi-activity"></i>
+                        <IoFingerPrintOutline/>
                       </div>
                       <Link
                         href={el.path}

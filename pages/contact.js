@@ -1,19 +1,15 @@
 import React from "react";
-import Breadcrumbs from "@/components/Breadcrumbs";
 
 function page() {
   return (
     <>
-      <Breadcrumbs
-        title="Contact"
-        subtitle="Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem."
-      />
+
       <section id="contact" className="contact">
         <div className="container" data-aos="fade-up">
           <div>
             <iframe
               style={{ border: "0", width: "100%", height: "340px" }}
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12789.70526278776!2d10.307573161376952!3d36.736336954939986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd49c1d44a804d%3A0xc0b9deb367f96013!2sUnik%20espace!5e0!3m2!1sfr!2stn!4v1686233163552!5m2!1sfr!2stn"
               allowFullScreen
             ></iframe>
           </div>
@@ -23,8 +19,8 @@ function page() {
               <div className="info-item d-flex">
                 <i className="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h4>Adresse:</h4>
+                  <p>P8P4+JX Ez Zahra Ben Arous</p>
                 </div>
               </div>
 
@@ -32,15 +28,15 @@ function page() {
                 <i className="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>contact@unik-espace.com</p>
                 </div>
               </div>
 
               <div className="info-item d-flex">
                 <i className="bi bi-phone flex-shrink-0"></i>
                 <div>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <h4>Tel:</h4>
+                  <p>+216 98 188 622</p>
                 </div>
               </div>
             </div>

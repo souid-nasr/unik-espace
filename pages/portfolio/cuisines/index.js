@@ -5,7 +5,7 @@ import Kichen_1 from "@/assets/img/cuisine/kitchen_1.jpg";
 import Kichen_2 from "@/assets/img/cuisine/kitchen_2.jpg";
 
 import Image from "next/image";
-import Gallery from "@/components/Gallery2";
+import Gallery from "@/components/Gallery";
 import Breadcrumbs from "@/components/Breadcrumbs";
 const data = [
   {

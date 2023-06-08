@@ -1,56 +1,78 @@
 "use client"
-import React, { useState } from "react";
-import { BsPlusLg } from "react-icons/bs";
+import { useState } from 'react'
+import Image from 'next/image'
+import { BsChevronRight,BsChevronLeft} from "react-icons/bs";
 import { ImCancelCircle } from "react-icons/im";
-import Image from "next/image";
-// import {galerie} from '../../constants/data'
-const Gallery = ({data}) => {
 
-  const [imageModal, setImageModal] = useState(false);
-  const [imageSource, setImageSource] = useState("");
 
-  const setImageOnModal = (el) => {
-    setImageModal(true);
-    setImageSource(el);
-  };
+
+const WSPGallery = ({data}) => {
+
+  const [slideNumber, setSlideNumber] = useState(0)
+  const [openModal, setOpenModal] = useState(false)
+
+  const handleOpenModal = (index) => {
+    setSlideNumber(index)
+    setOpenModal(true)
+  }
+
+  // Close Modal
+  const handleCloseModal = () => {
+    setOpenModal(false)
+  }
+
+  // Previous Image
+  const prevSlide = () => {
+    slideNumber === 0 
+    ? setSlideNumber( data.length -1 ) 
+    : setSlideNumber( slideNumber - 1 )
+  }
+
+  // Next Image  
+  const nextSlide = () => {
+    slideNumber + 1 === data.length 
+    ? setSlideNumber(0) 
+    : setSlideNumber(slideNumber + 1)
+  }
 
   return (
-    <div className="work section-p" id="work">
-      <div className={imageModal ? "image-box show-image-box" : "image-box"}>
-        <div className="image-box-content">
-          <Image src={imageSource} alt="" />
-          <span
-            className="image-box-close-btn"
-            onClick={() => setImageModal(false)}
-          >
-            <ImCancelCircle size={30} />
-          </span>
-        </div>
-      </div>
+    <div>
 
-      <div className="container">
-        <div className="work-content">
-          <div className="work-list grid">
-            {data.map((el) => {
-              return (
-              
-                  <div
-                    className="work-item"
-                    key={el._id}
-                    onClick={() => setImageOnModal((el.image))}
-                  >
-                    <Image src={el.image} alt="" />
-                    <span className="work-item-icon">
-                      <BsPlusLg size={38} className="text-brown" />
-                    </span>
-                  </div>
-              )
-            })}
+      {openModal && 
+        <div className='sliderWrap'>
+          <ImCancelCircle className='btnClose' onClick={handleCloseModal}  />
+          <BsChevronLeft  className='btnPrev' onClick={prevSlide} />
+          <BsChevronRight className='btnNext' onClick={nextSlide} />
+          <div className='fullScreenImage'>
+            <Image src={data[slideNumber].image} alt='' />
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
+      }
 
-export default Gallery;
+      {/* <br />
+      Current slide number:  {slideNumber}
+      <br />
+      Total Slides: {data.length}
+      <br /><br /> */}
+
+      <div className='galleryWrap'>
+        {
+          data && data.map((el, index) => {
+            return(
+              <div 
+                className='single' 
+                key={index}
+                onClick={ () => handleOpenModal(index) }
+              >
+                <Image className='img'src={el.image} alt='' />
+              </div>
+            )
+          })
+        }
+      </div>
+
+    </div>
+  )
+}
+
+export default WSPGallery

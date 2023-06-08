@@ -3,6 +3,7 @@ import React from "react";
 import dressing from "@/assets/img/dressing/dressing_1280.jpg";
 import dressing_1 from "@/assets/img/dressing/dressing_1.jpg";
 import dressing_2 from "@/assets/img/dressing/dressing_2.jpg";
+import dressing_3 from "@/assets/img/dressing/dressing_3.jpg";
 import Image from "next/image";
 import Gallery from "@/components/Gallery";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -20,7 +21,7 @@ const data = [
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "dressing 3",
-    image: dressing_1,
+    image: dressing_3,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
@@ -62,34 +63,6 @@ function Dressings() {
             <div className="col-lg-7">
               <article className="product-details">
                 <h2 className="title">DRESSINGS SUR MESURE</h2>
-                {/* <div className="post-img">
-                  <Image src={dressing} alt="" className="img-fluid" />
-                </div>
-
-                // <h2 className="title">
-                //   Dolorum optio tempore voluptas dignissimos cumque fuga qui
-                //   quibusdam quia
-                // </h2>
-
-                <div className="meta-top">
-                  <ul>
-                    <li className="d-flex align-items-center">
-                      <i className="bi bi-person"></i>{" "}
-                      <a href="product-details.html">John Doe</a>
-                    </li>
-                    <li className="d-flex align-items-center">
-                      <i className="bi bi-clock"></i>{" "}
-                      <a href="product-details.html">
-                        <time dateTime="2020-01-01">Jan 1, 2022</time>
-                      </a>
-                    </li>
-                    <li className="d-flex align-items-center">
-                      <i className="bi bi-chat-dots"></i>{" "}
-                      <a href="product-details.html">12 Comments</a>
-                    </li>
-                  </ul>
-                </div> */}
-
                 <div className="content">
                   <p>
                     Les dressings prennent une place de plus en plus importante

@@ -1,8 +1,8 @@
 import React from "react";
-
 import Stats from "@/components/Stats";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import About from "@/components/About";
+import Team from "@/components/Team";
 function AboutPage() {
   return (
     <div>
@@ -12,8 +12,8 @@ function AboutPage() {
         Nous vous proposons la possibilité d&#39;aménager l&#39;ensemble de votre habitat sur-mesure."
       />
       <About/>
-
       <Stats />
+      <Team/>
     </div>
   );
 }

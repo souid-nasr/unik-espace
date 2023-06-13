@@ -10,6 +10,7 @@ import Functionality from "@/components/Functionality";
 import chambres from "@/assets/img/chambre/chambre.jpg";
 
 import cuisines from "@/assets/img/cuisine/kitchen_1920.jpg";
+import Team from "@/components/Team";
 const slides=[
   {
     image: cuisines,
@@ -43,7 +44,8 @@ export default function Home() {
         {/* <Features /> */}
         <Pricing />
         {/* <Testimonials /> */}
-        <Faq />
+        {/* <Faq /> */}
+        <Team/>
       </main>
     </>
   );

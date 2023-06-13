@@ -1,6 +1,6 @@
 import React from "react";
-import cuisines from "../assets/img/cuisine/kitchen_1920.jpg";
-import dressings from "../assets/img/dressing/dressing_1280.jpg";
+import cuisine from "../assets/img/cuisine/c1.jpg";
+import dressings from "../assets/img/dressing/d1.jpg";
 import bibliotheques from "../assets/img/bibliotheque/bibliotheque_1.jpg";
 import chambres from "../assets/img/chambre/chambre.jpg";
 import habillages from "../assets/img/habillage/habillage.jpg";
@@ -15,7 +15,7 @@ function Products() {
   const data = [
     {
       _id: "id" + Math.random().toString(16).slice(2),
-      url: cuisines,
+      url: cuisine,
       title: "Cuisines",
       path: "/portfolio/cuisines",
     },
@@ -88,6 +88,7 @@ function Products() {
                   data-aos-delay="200"
                   key={el._id}
                 >
+                  
                   <div className="product-item">
                     <div className="img">
                       <Image src={el.url} className="img-fluid" alt="cuisine" />

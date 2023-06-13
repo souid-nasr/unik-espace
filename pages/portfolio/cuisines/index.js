@@ -1,8 +1,13 @@
 "use client";
-import React, { useState } from "react";
-import Kichen from "@/assets/img/cuisine/kitchen_1920.jpg";
-import Kichen_1 from "@/assets/img/cuisine/kitchen_1.jpg";
-import Kichen_2 from "@/assets/img/cuisine/kitchen_2.jpg";
+import React from "react";
+import Kichen from "@/assets/img/cuisine/c1.jpg";
+import Kichen_1 from "@/assets/img/cuisine/c2.jpg";
+import Kichen_2 from "@/assets/img/cuisine/c4.jpg";
+import Kichen_3 from "@/assets/img/cuisine/c5.jpg";
+import Kichen_4 from "@/assets/img/cuisine/c6.jpg";
+import Kichen_5 from "@/assets/img/cuisine/c7.jpg";
+import Kichen_6 from "@/assets/img/cuisine/c8.jpg";
+import Kichen_7 from "@/assets/img/cuisine/c3.jpg";
 
 import Image from "next/image";
 import Gallery from "@/components/Gallery";
@@ -11,42 +16,47 @@ const data = [
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 1",
-    image: Kichen_1,
+    image: Kichen,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 2",
-    image: Kichen_2,
+    image: Kichen_1,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 3",
-    image: Kichen_1,
+    image: Kichen_2,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 4",
-    image: Kichen_2,
+    image: Kichen_3,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 5",
-    image: Kichen_2,
+    image: Kichen_3,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 6",
-    image: Kichen_1,
+    image: Kichen_4,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 7",
-    image: Kichen_2,
+    image: Kichen_5,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "kichen 8",
-    image: Kichen_1,
+    image: Kichen_6,
+  },
+  {
+    _id: "id" + Math.random().toString(16).slice(2),
+    title: "kichen 8",
+    image: Kichen_7,
   },
 ];
 

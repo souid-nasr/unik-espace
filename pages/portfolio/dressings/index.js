@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
 import dressing from "@/assets/img/dressing/dressing_1280.jpg";
-import dressing_1 from "@/assets/img/dressing/dressing_1.jpg";
-import dressing_2 from "@/assets/img/dressing/dressing_2.jpg";
-import dressing_3 from "@/assets/img/dressing/dressing_3.jpg";
+import dressing_1 from "@/assets/img/dressing/d1.jpg";
+import dressing_2 from "@/assets/img/dressing/d3.jpg";
+import dressing_3 from "@/assets/img/dressing/d4.jpg";
+import dressing_4 from "@/assets/img/dressing/d5.jpg";
+import dressing_5 from "@/assets/img/dressing/d6.jpg";
+
 import Image from "next/image";
 import Gallery from "@/components/Gallery";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -26,27 +29,12 @@ const data = [
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "dressing 4",
-    image: dressing_2,
+    image: dressing_4,
   },
   {
     _id: "id" + Math.random().toString(16).slice(2),
     title: "dressing 5",
-    image: dressing_2,
-  },
-  {
-    _id: "id" + Math.random().toString(16).slice(2),
-    title: "dressing 6",
-    image: dressing_1,
-  },
-  {
-    _id: "id" + Math.random().toString(16).slice(2),
-    title: "dressing 7",
-    image: dressing_2,
-  },
-  {
-    _id: "id" + Math.random().toString(16).slice(2),
-    title: "dressing 8",
-    image: dressing_1,
+    image: dressing_5,
   },
 ];
 

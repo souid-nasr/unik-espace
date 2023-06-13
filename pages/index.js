@@ -36,9 +36,10 @@ export default function Home() {
     <>
       <Hero slides={slides} />
       <main id="main">
+      <Products/>
         <Featured />
         <About />
-        <Products/>
+        
         <Functionality/>
         <Call />
         {/* <Features /> */}

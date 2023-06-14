@@ -35,7 +35,7 @@ function page() {
             </div>
 
             <div className="col-lg-8">
-              <Image src={service} alt="" className="img-fluid services-img" />
+              <Image quality={100} src={service} alt="" className="img-fluid services-img" />
 
               <h3>
                 Temporibus et in vero dicta aut eius lidero plastis trand lined

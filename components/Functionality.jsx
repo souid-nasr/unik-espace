@@ -28,7 +28,7 @@ function Functionality() {
           >
             <div className="col-lg-5">
               <div className="fuctionality -img">
-                <Image src={fuctionality} className="img-fluid" alt="" />
+                <Image quality={100} src={fuctionality} className="img-fluid" alt="" />
               </div>
             </div>
 

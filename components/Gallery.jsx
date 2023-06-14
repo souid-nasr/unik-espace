@@ -44,7 +44,7 @@ const WSPGallery = ({data}) => {
           <BsChevronLeft  className='btnPrev' onClick={prevSlide} />
           <BsChevronRight className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage'>
-            <Image src={data[slideNumber].image} alt='' />
+            <Image quality={100} src={data[slideNumber].image} alt='' />
           </div>
         </div>
       }
@@ -64,7 +64,7 @@ const WSPGallery = ({data}) => {
                 key={index}
                 onClick={ () => handleOpenModal(index) }
               >
-                <Image className='img'src={el.image} alt='' />
+                <Image quality={100} className='img'src={el.image} alt='' />
               </div>
             )
           })

@@ -91,7 +91,7 @@ function Products() {
                   
                   <div className="product-item">
                     <div className="img">
-                      <Image src={el.url} className="img-fluid" alt="cuisine" />
+                      <Image quality={100} src={el.url} className="img-fluid" alt="cuisine" />
                     </div>
                     <div className="details position-relative">
                       <div className="icon">

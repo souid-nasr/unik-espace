@@ -102,7 +102,7 @@ function Habillages() {
                     Nos produits sur mesure vous permettront d’optimiser et de
                     décorer l’espace disponible.
                   </p>
-                  <Image src={habillage_0} className="img-fluid" alt="" />
+                  <Image quality={100} src={habillage_0} className="img-fluid" alt="" />
 
                   <h3>LE SUR MESURE</h3>
                   <p>

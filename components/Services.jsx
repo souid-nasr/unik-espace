@@ -19,7 +19,7 @@ function Services() {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div className="card">
               <div className="card-img">
-                <Image src={service} alt="" className="img-fluid"/>
+                <Image quality={100} src={service} alt="" className="img-fluid"/>
               </div>
               <h3><Link href="/service" className="stretched-link">Storage</Link></h3>
               <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
@@ -29,7 +29,7 @@ function Services() {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div className="card">
               <div className="card-img">
-                <Image src={service} alt="" className="img-fluid"/>
+                <Image quality={100} src={service} alt="" className="img-fluid"/>
               </div>
               <h3><Link href="/service" className="stretched-link">Logistics</Link></h3>
               <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
@@ -39,7 +39,7 @@ function Services() {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div className="card">
               <div className="card-img">
-                <Image src={service} alt="" className="img-fluid"/>
+                <Image quality={100} src={service} alt="" className="img-fluid"/>
               </div>
               <h3><Link href="/service" className="stretched-link">Cargo</Link></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
@@ -49,7 +49,7 @@ function Services() {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div className="card">
               <div className="card-img">
-                <Image src={service} alt="" className="img-fluid"/>
+                <Image quality={100} src={service} alt="" className="img-fluid"/>
               </div>
               <h3><Link href="/service" className="stretched-link">Trucking</Link></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
@@ -59,7 +59,7 @@ function Services() {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div className="card">
               <div className="card-img">
-                <Image src={service} alt="" className="img-fluid"/>
+                <Image quality={100} src={service} alt="" className="img-fluid"/>
               </div>
               <h3><Link href="/service" className="stretched-link">Packaging</Link></h3>
               <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
@@ -69,7 +69,7 @@ function Services() {
           <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div className="card">
               <div className="card-img">
-                <Image src={service} alt="" className="img-fluid"/>
+                <Image quality={100} src={service} alt="" className="img-fluid"/>
               </div>
               <h3><Link href="/service" className="stretched-link">Warehousing</Link></h3>
               <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>

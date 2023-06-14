@@ -73,7 +73,7 @@ function Cuisine() {
             <div className="col-lg-7">
               <article className="product-details">
                 {/* <div className="post-img">
-                  <Image src={Kichen} alt="" className="img-fluid" />
+                  <Image quality={100} src={Kichen} alt="" className="img-fluid" />
                 </div>
 
                 <h2 className="title">
@@ -159,7 +159,7 @@ function Cuisine() {
                     Prenons le temps et discutons-en ensemble… qu&#39;importe le
                     style pourvu qu&#39;on ait l&#39;ivresse !
                   </p>
-                  <Image src={Kichen} className="img-fluid" alt="" />
+                  <Image quality={100} src={Kichen} className="img-fluid" alt="" />
 
                   <h3>LE CHOIX</h3>
                   <p>

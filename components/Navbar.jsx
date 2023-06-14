@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-yellow-500">
         <Link href="/" className="logo d-flex align-items-center">
-          <Image src={logo} width="90" height="65" alt="/" />
+          <Image quality={100} src={logo} width="90" height="65" alt="/" />
         </Link>
         <nav id="navbar" className="navbar px-9">
           <ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
             <div>
               <div className="flex w-full items-center justify-between">
                 {/* <Link href="/">
-                  <Image src={logo} width="87" height="35" alt="/" />
+                  <Image quality={100} src={logo} width="87" height="35" alt="/" />
                 </Link> */}
                 <div
                   onClick={handleNav}

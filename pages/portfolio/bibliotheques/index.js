@@ -96,7 +96,7 @@ function Bibliotheques() {
                     Prenons le temps et discutons-en ensemble… qu&#39;importe le
                     style pourvu qu&#39;on ait l&#39;ivresse !
                   </p>
-                  <Image src={bibliotheque_1} className="img-fluid" alt="" />
+                  <Image quality={100} src={bibliotheque_1} className="img-fluid" alt="" />
 
                   <h3>LE CHOIX</h3>
                   <p>

@@ -7,7 +7,7 @@ function About() {
       <div className="container" data-aos="fade-up">
         <div className="row gy-4">
           <div className="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <Image src={about_img} alt="/" className="img-fluid" />
+            <Image quality={100} src={about_img} alt="/" className="img-fluid" />
           </div>
           <div className="col-lg-6 content order-last  order-lg-first">
             <div className="section-header">

@@ -79,7 +79,7 @@ function Dressings() {
                       image
                     </p>
                   </blockquote>
-                  <Image src={dressing} className="img-fluid" alt="" />
+                  <Image quality={100} src={dressing} className="img-fluid" alt="" />
                   <p>
                     Le dressing est un espace dédié au rangement de vêtements.
                     Nous vous accompagnons dans votre réflexion afin d’optimiser

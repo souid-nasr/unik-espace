@@ -12,7 +12,7 @@ function Features() {
         <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
 
           <div className="col-md-5">
-            <Image src={features_1} className="img-fluid" alt=""/>
+            <Image quality={100} src={features_1} className="img-fluid" alt=""/>
           </div>
           <div className="col-md-7">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -30,7 +30,7 @@ function Features() {
 
         <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div className="col-md-5 order-1 order-md-2">
-          <Image src={features_2} className="img-fluid" alt=""/>
+          <Image quality={100} src={features_2} className="img-fluid" alt=""/>
           </div>
           <div className="col-md-7 order-2 order-md-1">
             <h3>Corporis temporibus maiores provident</h3>
@@ -48,7 +48,7 @@ function Features() {
 
         <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div className="col-md-5">
-          <Image src={features_3} className="img-fluid" alt=""/>
+          <Image quality={100} src={features_3} className="img-fluid" alt=""/>
           </div>
           <div className="col-md-7">
             <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
@@ -63,7 +63,7 @@ function Features() {
 
         <div className="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div className="col-md-5 order-1 order-md-2">
-          <Image src={features_4} className="img-fluid" alt=""/>
+          <Image quality={100} src={features_4} className="img-fluid" alt=""/>
           </div>
           <div className="col-md-7 order-2 order-md-1">
             <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>

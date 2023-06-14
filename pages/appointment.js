@@ -14,7 +14,7 @@ function page() {
         <div className="container" data-aos="fade-up">
           <div className="row g-0">
             <div className="col-lg-5 quote-bg">
-              <Image src={quote} alt="quote" />
+              <Image quality={100} src={quote} alt="quote" />
             </div>
 
             <div className="col-lg-7">

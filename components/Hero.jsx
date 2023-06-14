@@ -25,7 +25,7 @@ const Slider = () => {
       <SwiperSlide>
         <section
           id="hero"
-          className="hero bg-[url('../assets/img/cuisine/c2horiz.jpg')] bg-cover	"
+          className="hero bg-[url('../assets/img/cuisine/c2horiz.jpg')]"
         >
           <div className="text-white uppercase bg-black/50 ">
             <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">

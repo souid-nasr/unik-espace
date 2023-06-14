@@ -28,7 +28,7 @@ function Porfolio() {
             >
               <div className="card">
                 <div className="card-img">
-                  <Image src={service_1} alt="" className="img-fluid" />
+                  <Image quality={100} src={service_1} alt="" className="img-fluid" />
                 </div>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -50,7 +50,7 @@ function Porfolio() {
             >
               <div className="card">
                 <div className="card-img">
-                  <Image src={service_2} alt="" className="img-fluid" />
+                  <Image quality={100} src={service_2} alt="" className="img-fluid" />
                 </div>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -72,7 +72,7 @@ function Porfolio() {
             >
               <div className="card">
                 <div className="card-img">
-                  <Image src={service_3} alt="" className="img-fluid" />
+                  <Image quality={100} src={service_3} alt="" className="img-fluid" />
                 </div>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -94,7 +94,7 @@ function Porfolio() {
             >
               <div className="card">
                 <div className="card-img">
-                  <Image src={service_4} alt="" className="img-fluid" />
+                  <Image quality={100} src={service_4} alt="" className="img-fluid" />
                 </div>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -116,7 +116,7 @@ function Porfolio() {
             >
               <div className="card">
                 <div className="card-img">
-                  <Image src={service_1} alt="" className="img-fluid" />
+                  <Image quality={100} src={service_1} alt="" className="img-fluid" />
                 </div>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut
@@ -138,7 +138,7 @@ function Porfolio() {
             >
               <div className="card">
                 <div className="card-img">
-                  <Image src={service_2} alt="" className="img-fluid" />
+                  <Image quality={100} src={service_2} alt="" className="img-fluid" />
                 </div>
                 <p>
                   Dicta quam similique quia architecto eos nisi aut ratione aut

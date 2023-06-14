@@ -79,7 +79,7 @@ function Chambres() {
                     </p>
 
                   </blockquote>
-                  <Image src={chambre} className="img-fluid" alt="" />
+                  <Image quality={100} src={chambre} className="img-fluid" alt="" />
 
                   <h3>LE SUR MESURE</h3>
                   <p>

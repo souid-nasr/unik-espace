@@ -71,27 +71,47 @@ function Chambres() {
                     disponible. Entouré par une composition bibliothèque ou un
                     bureau.
                   </p>
-                  
 
                   <blockquote>
                     <p>
-                    Nos solutions sur mesures permettent une optimisation de n’importe quel espace
+                      Nos solutions sur mesures permettent une optimisation de
+                      n’importe quel espace
                     </p>
-
                   </blockquote>
-                  <Image quality={100} src={chambre} className="img-fluid" alt="" />
 
-                  <h3>LE SUR MESURE</h3>
+                  <h3>CHAMBRE D’ENFANTS</h3>
                   <p>
-                  L’optimisation dans les espaces de rangement est primordiale. Les lits relevables sont sur mesure pour s’adapter à vos dimensions: hauteur, largeur , profondeur et espaces spécifiques.Pas d’inquiétude, nous nous adapterons pour vous proposer un aménagement optimal.
+                    Unik Espace met également son savoir-faire et sa créativité
+                    au service de la conception de chambres d’enfants qui
+                    allient fonctionnalité, sécurité et imagination.{" "}
                   </p>
-                  <h3>LA PERSONNALISATION</h3>
+
                   <p>
-                  Un grand nombre de coloris et de matières sont disponibles afin de créer un aménagement autour du lit relevable qui vous correspond.
+                    Les chambres d’enfants conçues par Unik Espace sont adaptées
+                    aux besoins spécifiques des plus jeunes, tout en reflétant
+                    leur personnalité et en favorisant leur épanouissement.{" "}
                   </p>
-                  <h3>QUALITÉ DE FINITION</h3>
                   <p>
-                  Toute l’armature du lit relevable est travaillée afin de vous permettre une utilisation quotidienne facile et pratique.                  </p>
+                    Les chambres sont aménagées de manière ludique et colorée,
+                    avec des meubles ergonomiques et des solutions de rangement
+                    optimisées pour faciliter l’organisation des jouets, des
+                    vêtements et des fournitures scolaires.{" "}
+                  </p>
+                  <p>
+                    La sécurité est une priorité, avec l’utilisation de
+                    matériaux non toxiques et durables, ainsi que des
+                    dispositifs de protection adaptés à l’âge. Les chambres
+                    d’enfants d’Unik Espace sont conçues pour grandir avec les
+                    enfants, offrant ainsi des solutions évolutives et
+                    modulables qui s’adaptent à leurs besoins en constante
+                    évolution.{" "}
+                  </p>
+                  <p>
+                    L’objectif est de créer un espace unique où les enfants se
+                    sentiront à l’aise, inspirés et heureux de passer du temps,
+                    favorisant ainsi leur développement harmonieux et leur
+                    bien-être.{" "}
+                  </p>
                 </div>
               </article>
             </div>

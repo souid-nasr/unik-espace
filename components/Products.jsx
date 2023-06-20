@@ -9,7 +9,7 @@ import separations from "../assets/img/separation/separation.jpg";
 import sousescaliers from "../assets/img/sousescalier/sousescalier.jpg";
 import Link from "next/link";
 import Image from "next/image";
-import {IoFingerPrintOutline} from 'react-icons/io5'
+import { IoFingerPrintOutline } from "react-icons/io5";
 
 function Products() {
   const data = [
@@ -35,7 +35,13 @@ function Products() {
       _id: "id" + Math.random().toString(16).slice(2),
       url: chambres,
       title: "Chambres d’enfants",
-      path: "/portfolio/chambres",
+      path: "/portfolio/chambres-enfants",
+    },
+    {
+      _id: "id" + Math.random().toString(16).slice(2),
+      url: chambres,
+      title: "Chambres à coucher",
+      path: "/portfolio/chambres-a-coucher",
     },
     {
       _id: "id" + Math.random().toString(16).slice(2),
@@ -61,6 +67,12 @@ function Products() {
       title: "Sous escaliers",
       path: "/portfolio/sousescaliers",
     },
+    {
+      _id: "id" + Math.random().toString(16).slice(2),
+      url: sousescaliers,
+      title: "Pieces Unik",
+      path: "/portfolio/pieces-unik",
+    },
   ];
   return (
     <>
@@ -71,11 +83,16 @@ function Products() {
             <h2>DÉCOUVREZ NOTRE SAVOIR-FAIRE</h2>
 
             <p>
-              Avec Unik Group, votre interlocuteur vous accompagne de A à Z dans
-              la réalisation de votre projet : cuisines, dressings,
-              bibliothèques, habillages, sous escalier, séparations, chambrs
-              d&#39;enfants et portes. Nous vous proposons la possibilité d&#39;aménager
-              l&#39;ensemble de votre habitat sur-mesure.
+              Unik Espace est une société spécialisée dans l’aménagement
+              intérieur sur mesure. Avec une équipe de designers qualifiés, elle
+              offre des services personnalisés de conception et de
+              transformation d’espaces intérieurs. En utilisant des matériaux de
+              qualité et en intégrant des technologies innovantes, Unik Espace
+              crée des aménagements esthétiques et fonctionnels. La société gère
+              l’ensemble du projet, respectant les normes et les délais, et
+              propose une sélection de mobilier adapté. Son objectif est de
+              réaliser des espaces intérieurs uniques et personnalisés,
+              répondant parfaitement aux besoins et aux préférences des clients.
             </p>
           </div>
 
@@ -88,14 +105,18 @@ function Products() {
                   data-aos-delay="200"
                   key={el._id}
                 >
-                  
                   <div className="product-item">
                     <div className="img">
-                      <Image quality={100} src={el.url} className="img-fluid" alt="cuisine" />
+                      <Image
+                        quality={100}
+                        src={el.url}
+                        className="img-fluid"
+                        alt="cuisine"
+                      />
                     </div>
                     <div className="details position-relative">
                       <div className="icon">
-                        <IoFingerPrintOutline/>
+                        <IoFingerPrintOutline />
                       </div>
                       <Link
                         href={el.path}

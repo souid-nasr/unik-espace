@@ -98,8 +98,13 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-link" href="/portfolio/chambres">
+                  <Link className="nav-link" href="/portfolio/chambres-enfants">
                     Chambres d&#39;enfants
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-link" href="/portfolio/chambres-a-coucher">
+                  Chambres à coucher
                   </Link>
                 </li>
                 <li>

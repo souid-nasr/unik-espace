@@ -78,45 +78,26 @@ function Separation() {
                     L’accompagnement et le conseil pour un projet qui vous ressemble                    </p>
                   </blockquote>
 
+                  <h3> HABILLAGE D’ENTRÉE ET SÉPARATIONS</h3>
                   <p>
-                    Grâce à nos aménagements intérieurs sur mesure, nous aurons
-                    la capacité de nous adapter à une multitude de contraintes
-                    techniques. Une grande possibilité de personnalisation dans les profils par leur couleur ou leur largeur permet de réaliser des verrières avec des traverses pour donner un style plus ou moins déstructuré.
+                  Les habillages d’entrées conçus par Unik Espace sont réalisés avec des bois nobles de qualité
+supérieure tels que le chêne, le frêne ou l’hêtre. Ils offrent une esthétique chaleureuse et élégante,
+personnalisable selon les préférences du client en termes de finitions, de motifs et d’éléments décoratifs.
+                  </p>
+                  <p>
+                  Les séparations en bois noble et en panneau stratifié permettent de diviser les espaces de manière
+élégante et fonctionnelle, créant des zones distinctes dans des espaces tels que les salons, les salles à
+manger ou les bureaux. Elles s’adaptent harmonieusement à la décoration intérieure grâce à une variété
+de finitions et de styles.
                   </p>
 
-                  <h3> SOUS-ESCALIER SUR MESURE</h3>
                   <p>
-                    Les separations en fonction de la pièce où ils se trouvent
-                    peuvent avoir plusieurs fonctions : fonction purement
-                    pratique, fonction purement esthétique, fonction pratique et
-                    esthétique.
+                  L’équipe d’Unik Espace travaille en étroite collaboration avec les clients, comprenant leurs besoins et
+leurs préférences spécifiques en matière d’habillages d’entrées et de séparations en bois noble et en
+panneau stratifié. Leur expertise et leur savoir-faire leur permettent de concevoir des solutions sur
+mesure répondant aux exigences esthétiques et fonctionnelles de chaque projet.
                   </p>
-                  <p>
-                    Nos produits sur mesure vous permettront d’optimiser et de
-                    décorer l’espace disponible.
-                  </p>
-                  <Image quality={100} src={separation_0} className="img-fluid" alt="" />
 
-                  <h3>LE SUR MESURE</h3>
-                  <p>
-                    Deux points importants pour l’aménagement d’une
-                    séparation, l’optimisation et la praticité. C’est
-                    pourquoi nos produits sont sur mesure pour s’adapter à vos
-                    dimensions: hauteur, largeur,espaces
-                    spécifiques, nous nous adapterons pour vous proposer un
-                    aménagement optimal.
-                  </p>
-                  <h3>SÉPARATIONS DE PIÈCES</h3>
-                  <p>
-                    Nous vous proposerons une multitude de compositions pour la
-                    réalisation de l&#39;aménagement d&#39;une séparation
-                    pour répondre à vos attentes grâce à un grand
-                    nombre de coloris, de matières disponibles.
-                  </p>
-                  <h3>LE MÉTRÉ ET LA POSE</h3>
-                  <p>
-                  Depuis la création d’Unik Espace, nous travaillons avec des poseurs menuisiers qualifiés afin d’assurer un service de qualité de la prise en charge du projet jusqu’à la réalisation. C’est pourquoi, nous nous déplaçons pour effectuer un métré avant le lancement en fabrication.{" "}
-                  </p>
                 </div>
               </article>
             </div>

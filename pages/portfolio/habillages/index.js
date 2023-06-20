@@ -62,18 +62,18 @@ function Habillages() {
           <div className="row g-5">
             <div className="col-lg-7">
               <article className="product-details">
-
                 <div className="content">
                   <p>
-                    L’aménagement des habillages est la solution par
-                    excellence pour gagner de la place. Nos produits permettent
-                    un alignement parfait avec les pentes d’ escaliers ou des
+                    L’aménagement des habillages est la solution par excellence
+                    pour gagner de la place. Nos produits permettent un
+                    alignement parfait avec les pentes d’ escaliers ou des
                     combles pour un rendu parfait.
                   </p>
 
                   <p>
-                    Spécialiste de l’aménagement intérieur sur mesure depuis sept ans, nous vous accompagnerons à la
-                    réalisation de votre projet.
+                    Spécialiste de l’aménagement intérieur sur mesure depuis
+                    sept ans, nous vous accompagnerons à la réalisation de votre
+                    projet.
                   </p>
 
                   <blockquote>
@@ -82,54 +82,40 @@ function Habillages() {
                     </p>
                   </blockquote>
 
+                  <h3>HABILLAGE MURAL</h3>
                   <p>
-                    Grâce à nos aménagements intérieurs sur mesure, nous aurons
-                    la capacité de nous adapter à une multitude de contraintes
-                    techniques. Notre objectif est de réaliser un aménagement
-                    sous-escalier qui vous correspondra en respectant vos
-                    attentes et vos besoins tout en s’adaptant à l’espace
-                    disponible.
-                  </p>
-
-                  <h3> SOUS-ESCALIER SUR MESURE</h3>
-                  <p>
-                    Les habillages en fonction de la pièce où ils se
-                    trouvent peuvent avoir plusieurs fonctions : fonction
-                    purement pratique, fonction purement esthétique, fonction
-                    pratique et esthétique.
+                    Unik Espace excelle dans la création d’habillages muraux en
+                    bois noble et en panneau stratifié, offrant ainsi des
+                    solutions élégantes et durables pour transformer les murs en
+                    véritables éléments de design.
                   </p>
                   <p>
-                    Nos produits sur mesure vous permettront d’optimiser et de
-                    décorer l’espace disponible.
+                    Les habillages muraux en bois noble sont conçus pour
+                    apporter chaleur, caractère et sophistication à tout espace.
                   </p>
-                  <Image quality={100} src={habillage_0} className="img-fluid" alt="" />
-
-                  <h3>LE SUR MESURE</h3>
                   <p>
-                    Deux points importants pour l’aménagement d’un
-                    sous-escalier, l’optimisation et la praticité. C’est
-                    pourquoi nos produits sont sur mesure pour s’adapter à vos
-                    dimensions: hauteur, largeur, profondeur, espaces
-                    spécifiques, nous nous adapterons pour vous proposer un
-                    aménagement optimal.
+                    Des essences de bois nobles telles que le chêne, le frêne et
+                    le hêtre sont soigneusement sélectionnées pour leur beauté
+                    naturelle et leur résistance.
                   </p>
-                  <h3>LA PERSONNALISATION</h3>
                   <p>
-                    Nous vous proposerons une multitude de compositions pour la
-                    réalisation de l&#39;aménagement d&#39;un sous-escalier ou d
-                    une sous-pente pour répondre à vos attentes grâce à un grand
-                    nombre de coloris, de matières disponibles.
+                    Les panneaux stratifiés offrent une alternative moderne et
+                    polyvalente, imitant l’apparence du bois avec une durabilité
+                    accrue et une facilité d’entretien. Ils sont disponibles
+                    dans une large gamme de finitions et de couleurs, permettant
+                    de créer des effets visuels uniques et d’harmoniser
+                    l’habillage mural avec le style global de la pièce.
                   </p>
-                  <h3>LE MÉTRÉ ET LA POSE</h3>
                   <p>
-                    L’importance de faire appel à un professionnel pour ce type
-                    de projet est primordiale. Depuis la création d’Agencements
-                    MG, nous travaillons avec des poseurs menuisiers afin
-                    d’assurer un service de qualité qui va de la prise en charge
-                    du projet jusqu’à la réalisation. C’est pourquoi, une fois
-                    que votre projet de sous-escalier ou de sous-pente est
-                    concrétisé, nous nous déplaçons pour effectuer un métré
-                    avant le lancement en fabrication.{" "}
+                    L’équipe d’Unik Espace travaille en étroite collaboration
+                    avec les clients pour comprendre leurs besoins et leurs
+                    préférences, afin de créer des habillages muraux sur mesure
+                    qui s’adaptent parfaitement à leur espace et à leur
+                    esthétique. Que ce soit pour une résidence privée, un
+                    restaurant, un hôtel ou un espace commercial, les habillages
+                    muraux en bois noble et en panneau stratifié d’Unik Espace
+                    ajoutent une touche d’élégance intemporelle et de
+                    raffinement à tout environnement.
                   </p>
                 </div>
               </article>

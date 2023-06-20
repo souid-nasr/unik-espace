@@ -105,9 +105,32 @@ const Slider = () => {
               <p className="md:text-2xl text-xl font-bold text-white">
                 Sublimez votre intérieur afin qu&#39;il vous ressemble ! !
               </p>
-              <Link href="/portfolio/chambres">
+              <Link href="/portfolio/chambres-enfants">
                 <button className="uppercase  cta-btn">
                   voir toutes les Chambres d&#39;enfants{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+        </section>{" "}
+      </SwiperSlide>
+      <SwiperSlide>
+        <section
+          id="hero"
+          className="hero bg-[url('../assets/img/chambre/chambre.jpg')] bg-cover	"
+        >
+          <div className="text-white uppercase bg-black/50 ">
+            <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+              <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
+                Chambres à coucher{" "}
+              </h1>
+              <div className="flex justify-center items-center"></div>
+              <p className="md:text-2xl text-xl font-bold text-white">
+                Sublimez votre intérieur afin qu&#39;il vous ressemble ! !
+              </p>
+              <Link href="/portfolio/chambres-a-coucher">
+                <button className="uppercase  cta-btn">
+                  voir toutes les Chambres à coucher{" "}
                 </button>
               </Link>
             </div>
@@ -200,6 +223,29 @@ const Slider = () => {
               <Link href="/portfolio/sousescaliers">
                 <button className="uppercase  cta-btn">
                   voir toutes les Sous escaliers{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+        </section>{" "}
+      </SwiperSlide>
+      <SwiperSlide>
+        <section
+          id="hero"
+          className="hero bg-[url('../assets/img/chambre/chambre.jpg')] bg-cover	"
+        >
+          <div className="text-white uppercase bg-black/50 ">
+            <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
+              <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
+                Pieces Unik{" "}
+              </h1>
+              <div className="flex justify-center items-center"></div>
+              <p className="md:text-2xl text-xl font-bold text-white">
+                Sublimez votre intérieur afin qu&#39;il vous ressemble ! !
+              </p>
+              <Link href="/portfolio/pieces-unik">
+                <button className="uppercase  cta-btn">
+                  voir toutes les pieces unik{" "}
                 </button>
               </Link>
             </div>

@@ -119,16 +119,11 @@ function Cuisine() {
 
                   <blockquote>
                     <p>
-                      Qu&#39;est-ce qu&#39;une cuisine aménagée ? C&#39;est du rangement
-                      bien sûr ! mais avant tout de l&#39;ergonomie et de la
-                      convivialité : car ne l&#39;oublions pas, aujourd&#39;hui
-                      quasiment toutes les cuisines sont ouvertes et forment un
-                      lieu de vie avec le séjour.
-                    </p>
-                    <p>
-                      Il est donc primordial de concilier harmonieusement
-                      l&#39;espace de travail et de détente. C&#39;est à cela que nous
-                      sommes aussi attentifs.
+                      Qu&#39;est-ce qu&#39;une cuisine aménagée ? C&#39;est du
+                      rangement bien sûr ! mais avant tout de l&#39;ergonomie et
+                      de la convivialité : car ne l&#39;oublions pas,
+                      aujourd&#39;hui quasiment toutes les cuisines sont
+                      ouvertes et forment un lieu de vie avec le séjour.
                     </p>
                   </blockquote>
 
@@ -159,22 +154,59 @@ function Cuisine() {
                     Prenons le temps et discutons-en ensemble… qu&#39;importe le
                     style pourvu qu&#39;on ait l&#39;ivresse !
                   </p>
-                  <Image quality={100} src={Kichen} className="img-fluid" alt="" />
 
-                  <h3>LE CHOIX</h3>
+                  <h3>CUISINE MODERNE</h3>
                   <p>
-                    Suivant vos recherches en terme de budget comme en terme de
-                    produit, notre statut indépendant nous permet de vous
-                    orienter vers les fabricants que nous avons choisi pour vous
-                    afin de nous adapter à de nombreuses et différentes
-                    demandes.
-                  </p>   
-                  <h3>LES MATIÈRES</h3>
-                  <p>
-                  Laques mat, brillante ou poudrée,en céramique, béton, verre, nous pourrons vous étonner avec des façades peu courantes… ou classique en bois massif par exemple. Les façades en matériaux recyclés PET proposent des coloris actuels et tendance.
+                    Les cuisines modernes se caractérisent par leur design
+                    contemporain, fonctionnel et esthétiquement attrayant. Elles
+                    intègrent souvent des éléments innovants, des matériaux de
+                    haute qualité et des technologies avancées pour offrir une
+                    expérience culinaire pratique et agréable.
                   </p>
                   <p>
-                  Plan de travail suivant les exigences : la céramique aujourd&#39;hui remporte tous les suffrages : résistance à la chaleur et aux rayures avec de nombreux décors possible (même imitation bois !). La pierre naturelle – le granit – ou même le bois en lamellé massif donneront un cachet plus authentique. Et bien sûr le stratifié, qui reste un excellent rapport qualité – prix avec de nombreux décors et effets de matière.
+                    Elles se distinguent par leur design minimaliste et épuré.
+                    Les lignes sont souvent droites et nettes, avec une absence
+                    dl&#39;ornements superflus.{" "}
+                  </p>
+                  <p>
+                    Les armoires et les surfaces de travail sont souvent lisses
+                    et sans poignées visibles, créant ainsi une apparence propre
+                    et élégante.{" "}
+                  </p>
+                  <p>
+                    Les matériaux utilisés dans ces cuisines sont souvent des
+                    matériaux contemporains tels que, le stratifié, le verre, le
+                    marbre, et le métal en acier inoxydable.{" "}
+                  </p>
+                  <p>
+                    Ces matériaux confèrent à la cuisine une allure sophistiquée
+                    et durable.
+                  </p>
+                  <h3>CUISINE MODERNE STYLE FRAMCAIS</h3>
+                  <p>
+                    La cuisine moderne de style français combine
+                    l&#39;esthétique contemporaine avec des éléments de design
+                    traditionnels français.
+                  </p>
+                  <p>
+                    Ce style met souvent en valeur des armoires en bois de
+                    qualité. Elles peuvent être dotées de finitions lisses ou
+                    texturées, créant ainsi un aspect chaleureux et naturel.
+                  </p>
+                  <p>
+                    Il se caractérise par ses couleurs douces et subtiles; Les
+                    teintes populaires incluent les tons de blanc cassé, de
+                    crème, de gris clair et de beige. Ces couleurs créent une
+                    ambiance calme et élégante.
+                  </p>
+                  <p>
+                    le style est riche aussi par des détails décoratifs
+                    traditionnelle comme les moulures sur les armoires, et les
+                    pieds sculptés. Ces éléments apportent une touche de
+                    sophistication et de raffinemen. Il se caractérise aussi par
+                    un plan de travail en marbre ou en quartz, ces matériaux
+                    haut de gamme ajoutent une touche de luxe à l&#39;espace et
+                    offrent une surface durable et facile à entretenir.
                   </p>
                 </div>
 

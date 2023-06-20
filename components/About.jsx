@@ -7,7 +7,12 @@ function About() {
       <div className="container" data-aos="fade-up">
         <div className="row gy-4">
           <div className="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <Image quality={100} src={about_img} alt="/" className="img-fluid" />
+            <Image
+              quality={100}
+              src={about_img}
+              alt="/"
+              className="img-fluid"
+            />
           </div>
           <div className="col-lg-6 content order-last  order-lg-first">
             <div className="section-header">
@@ -15,9 +20,22 @@ function About() {
               <h2>SUBLIMER VOTRE INTÉRIEUR </h2>{" "}
             </div>
             <p>
-              … avec Unik Espace qui est spécialiste de l&#39;aménagement
-              d&#39;intérieur sur mesure : dressings, placards, bibliothèques,
-              cuisines depuis 2016 à Tunisie.
+              Unik Espace est une société spécialisée dans ld&#39;aménagement
+              intérieur sur mesure. Avec une équipe de designers qualifiés, elle
+              offre des services personnalisés de conception et de
+              transformation dd&#39;espaces intérieurs.
+            </p>
+            <p>
+              En utilisant des matériaux de qualité et en intégrant des
+              technologies innovantes, Unik Espace crée des aménagements
+              esthétiques et fonctionnels. La société gère ld&#39;ensemble du
+              projet, respectant les normes et les délais, et propose une
+              sélection de mobilier adapté
+            </p>{" "}
+            <p>
+              Son objectif est de réaliser des espaces intérieurs uniques et
+              personnalisés, répondant parfaitement aux besoins et aux
+              préférences des clients.
             </p>
             <ul>
               <li data-aos="fade-up" data-aos-delay="100">

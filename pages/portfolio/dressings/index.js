@@ -52,73 +52,46 @@ function Dressings() {
               <article className="product-details">
                 <h2 className="title">DRESSINGS SUR MESURE</h2>
                 <div className="content">
-                  <p>
-                    Les dressings prennent une place de plus en plus importante
-                    dans notre mode de vie et nos habitations. Le dressing sur
-                    mesure ouvre les possibilités à un aménagement qui vous
-                    correspond !
-                  </p>
-
-                  <p>
-                    C’est l’espace dédié aux rangements de vos vêtements et
-                    accessoires. Le dressing devient un espace apaisant où l’on
-                    apprécie pour passer du temps. Chaque accessoire a sa place.
-                    Chaussures, foulards, sacs à mains, bijoux, accessoires,
-                    pourront être mis en avant dans votre dressing.
-                  </p>
-                  <p>
-                    Choisir ses vêtements devient un vrai plaisir. La variété
-                    des configurations (linéaire, en L, en U, etc.) et la
-                    variété des finitions permettent de construire le projet
-                    idéal, correspondant parfaitement à vos besoins et
-                    s’adaptant parfaitement à la pièce qui lui est dédiée.{" "}
-                  </p>
                   <blockquote>
                     <p>
                       L’accompagnement et le conseil pour un dressing à votre
                       image
                     </p>
                   </blockquote>
-                  <Image quality={100} src={dressing} className="img-fluid" alt="" />
                   <p>
                     Le dressing est un espace dédié au rangement de vêtements.
                     Nous vous accompagnons dans votre réflexion afin d’optimiser
                     au maximum la place disponible.{" "}
                   </p>
-                  <h3> UNE MULITITUDE DE CONFIGURATIONS</h3>
+                  <h3> DRESSING MODERNE</h3>
                   <p>
-                    Le dressing doit vous permettre de disposer de la manière
-                    dont vous le souhaitez. C’est pourquoi il est important de
-                    prendre en compte tout ce que vous souhaitez ranger dans
-                    votre dressing. En fonction de l’espace disponible, le
-                    dressing peut prendre plusieurs formes : dressing en L, en
-                    U, en linéaire, avec îlot.
+                    Les dressings modernes se distinguent par leur design épuré
+                    et minimaliste, leur fonctionnalité optimisée et
+                    l’utilisation de matériaux contemporains. Ils offrent des
+                    solutions de rangement intelligentes pour optimiser l’espace
+                    et faciliter l’organisation des vêtements et des
+                    accessoires. Ils intègrent également des technologies
+                    avancées, tels que l’éclairage LED, les systèmes
+                    d’automatisation et les dispositifs de contrôle intelligent.
+                  </p>
+                  <p>
+                    Ils créent ainsi des espaces esthétiques, fonctionnels et
+                    pratiques pour faciliter le rangement.
                   </p>
 
-                  <h3>LA PERSONNALISATION</h3>
+                  <h3>CHAMBRE A DRESSING</h3>
                   <p>
-                    Le dressing prend de plus en plus d’espace et d’importance
-                    dans les habitudes de vie. Il est important d’avoir un
-                    dressing qui vous correspond, c’est pourquoi nous mettons à
-                    votre disposition une large gamme de coloris et de matières.
+                    Les chambres à dressing sont conçues pour offrir des espaces
+                    de rangement fonctionnels et organisés. Elles intègrent des
+                    solutions intelligentes telles que des penderies, des
+                    étagères modulables et des tiroirs pour faciliter
+                    l’organisation des vêtements et des accessoires. Les
+                    chambres à dressing permettent d’optimiser l’espace de
+                    manière esthétique et pratique, offrant ainsi un
+                    environnement idéal pour s’habiller et se préparer chaque
+                    jour.
                   </p>
-                  <h3>LES ACCESSOIRES</h3>
-                  <p>
-                    La personnalisation jusqu’au moindre détail. Bien pensé,
-                    chaque accessoire a sa place dans un dressing. Chaussures,
-                    foulards, sacs à mains, bijoux et accessoires pourront être
-                    mis en valeur dans votre dressing.{" "}
-                  </p>
-                  <p>
-                    Plan de travail suivant les exigences : la céramique
-                    aujourd&#39;hui remporte tous les suffrages : résistance à
-                    la chaleur et aux rayures avec de nombreux décors possible
-                    (même imitation bois !). La pierre naturelle – le granit –
-                    ou même le bois en lamellé massif donneront un cachet plus
-                    authentique. Et bien sûr le stratifié, qui reste un
-                    excellent rapport qualité – prix avec de nombreux décors et
-                    effets de matière.
-                  </p>
+                 
                 </div>
               </article>
             </div>

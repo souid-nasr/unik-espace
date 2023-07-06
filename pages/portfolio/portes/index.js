@@ -4,7 +4,7 @@ import porte_0 from "@/assets/img/porte/porte.jpg";
 import porte_1 from "@/assets/img/porte/porte_1.jpg";
 import porte_2 from "@/assets/img/porte/porte_2.jpg";
 
-import Image from "next/image";
+
 import Gallery from "@/components/Gallery";
 import Breadcrumbs from "@/components/Breadcrumbs";
 const data = [
@@ -63,64 +63,54 @@ function porte() {
             <div className="col-lg-7">
               <article className="product-details">
                 <div className="content">
-
                   <p>
-                    Spécialiste de l’aménagement intérieur sur mesure depuis
-                    sept ans, nous vous accompagnerons à la réalisation de votre
-                    projet.
+                    Unik Espace excelle également dans la conception et la
+                    fabrication de portes intérieures et extérieures, offrant
+                    des solutions esthétiques et fonctionnelles pour embellir et
+                    sécuriser votre espace.
                   </p>
 
                   <blockquote>
                     <p>
-                      L’accompagnement et le conseil pour un projet qui vous
-                      ressemble{" "}
+                      Les portes intérieures conçues par Unik Espace sont
+                      réalisées avec une attention particulière aux détails et à
+                      la qualité des matériaux.
                     </p>
                   </blockquote>
 
                   <p>
-                    Grâce à nos aménagements intérieurs sur mesure, nous aurons
-                    la capacité de nous adapter à une multitude de contraintes
-                    techniques. Une grande possibilité de personnalisation dans
-                    les profils par leur couleur ou leur largeur permet de
-                    réaliser des verrières avec des traverses pour donner un
-                    style plus ou moins déstructuré.
-                  </p>
-
-                  <h3> SOUS-ESCALIER SUR MESURE</h3>
-                  <p>
-                    Les portes en fonction de la pièce où ils se trouvent
-                    peuvent avoir plusieurs fonctions : fonction purement
-                    pratique, fonction purement esthétique, fonction pratique et
-                    esthétique.
+                    Elles sont disponibles dans une variété de styles, de
+                    finitions et de designs pour s’adapter à tous les goûts et à
+                    tous les décors. Que vous recherchiez des portes modernes,
+                    classiques, minimalistes ou rustiques, Unik Espace propose
+                    des options sur mesure pour répondre à vos besoins
+                    spécifiques.
                   </p>
                   <p>
-                    Nos produits sur mesure vous permettront d’optimiser et de
-                    décorer l’espace disponible.
+                    Les portes intérieures peuvent être réalisées en bois noble,
+                    en panneaux de bois stratifié ou en combinaison de
+                    matériaux, offrant à la fois durabilité et esthétique.
                   </p>
-                  <Image quality={100} src={porte_0} className="img-fluid" alt="" />
-
-                  <h3>LE SUR MESURE</h3>
                   <p>
-                    Deux points importants pour l’aménagement d’un porte,
-                    l’optimisation et la praticité. C’est pourquoi nos produits
-                    sont sur mesure pour s’adapter à vos dimensions: hauteur,
-                    largeur,espaces spécifiques, nous nous adapterons pour vous
-                    proposer un aménagement optimal.
+                    En ce qui concerne les portes extérieures, Unik Espace met
+                    l’accent sur la sécurité, la durabilité et l’esthétique.
                   </p>
-                  <h3>PORTES DE PIÈCES</h3>
                   <p>
-                    Nous vous proposerons une multitude de compositions pour la
-                    réalisation de l&#39;aménagement d&#39;un porte pour
-                    répondre à vos attentes grâce à un grand nombre de coloris,
-                    de matières disponibles.
+                    Les portes extérieures sont fabriquées avec des matériaux de
+                    haute qualité, résistants aux intempéries et aux
+                    effractions. Elles peuvent être personnalisées avec des
+                    finitions et des motifs pour s’harmoniser avec le style
+                    architectural de votre maison. Les portes extérieures d’Unik
+                    Espace offrent non seulement une protection, mais elles
+                    ajoutent également une touche d’élégance à l’entrée de votre
+                    maison.
                   </p>
-                  <h3>LE MÉTRÉ ET LA POSE</h3>
                   <p>
-                    Depuis la création d’Unik Espace, nous travaillons avec des
-                    poseurs menuisiers qualifiés afin d’assurer un service de
-                    qualité de la prise en charge du projet jusqu’à la
-                    réalisation. C’est pourquoi, nous nous déplaçons pour
-                    effectuer un métré avant le lancement en fabrication.{" "}
+                    Que ce soit pour rehausser l’apparence de vos espaces
+                    intérieurs avec des portes élégantes ou pour sécuriser votre
+                    maison avec des portes extérieures de qualité, Unik Espace
+                    offre des solutions sur mesure qui répondent à vos exigences
+                    spécifiques.
                   </p>
                 </div>
               </article>

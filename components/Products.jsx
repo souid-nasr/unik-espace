@@ -64,12 +64,6 @@ function Products() {
     {
       _id: "id" + Math.random().toString(16).slice(2),
       url: sousescaliers,
-      title: "Sous escaliers",
-      path: "/portfolio/sousescaliers",
-    },
-    {
-      _id: "id" + Math.random().toString(16).slice(2),
-      url: sousescaliers,
       title: "Pieces Unik",
       path: "/portfolio/pieces-unik",
     },

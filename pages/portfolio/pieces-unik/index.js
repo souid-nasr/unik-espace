@@ -62,14 +62,6 @@ function Pieces() {
             <div className="col-lg-7">
               <article className="product-details">
                 <div className="content">
-                  <blockquote>
-                    <p>
-                      Il est donc primordial de concilier harmonieusement
-                      l&#39;espace de travail et de détente. C&#39;est à cela
-                      que nous sommes aussi attentifs.
-                    </p>
-                  </blockquote>
-
                   <h3>PIECES UNIK</h3>
                   <p>
                     Unik Espace se spécialise dans la création de pièces de

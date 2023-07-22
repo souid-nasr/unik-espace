@@ -61,57 +61,46 @@ function Bibliotheques() {
           <div className="row g-5">
             <div className="col-lg-7">
               <article className="product-details">
-
-
                 <div className="content">
-
-
-                  <blockquote>
-                    <p>
-                      Qu&#39;est-ce qu&#39;une bibliotheque aménagée ? C&#39;est du rangement
-                      bien sûr ! mais avant tout de l&#39;ergonomie et de la
-                      convivialité : car ne l&#39;oublions pas, aujourd&#39;hui
-                      quasiment toutes les bibliotheques sont ouvertes et forment un
-                      lieu de vie avec le séjour.
-                    </p>
-                    <p>
-                      Il est donc primordial de concilier harmonieusement
-                      l&#39;espace de travail et de détente. C&#39;est à cela que nous
-                      sommes aussi attentifs.
-                    </p>
-                  </blockquote>
-
-
-                  <h3>
-                    {" "}
-                    Un cuisiniste, tel que nous le concevons, doit avant tout
-                    prendre le temps de vous connaître.
-                  </h3>
+                  <h3>Bibliothéque et sous éscalier:</h3>
                   <p>
-                    Vous écoutez, ce qui doit nous permettre non pas de « vous
-                    proposer nos bibliotheques » mais surtout de réaliser VOTRE
-                    bibliotheque.
+                    Unik Espace excelle également dans la conception de
+                    bibliothèques sur mesure et la transformation des espaces
+                    sous escaliers, offrant ainsi des solutions fonctionnelles
+                    et esthétiques pour maximiser l&#39;utilisation de
+                    l&#39;espace.
                   </p>
                   <p>
-                    Prenons le temps et discutons-en ensemble… qu&#39;importe le
-                    style pourvu qu&#39;on ait l&#39;ivresse !
-                  </p>
-                  <Image quality={100} src={bibliotheque_1} className="img-fluid" alt="" />
-
-                  <h3>LE CHOIX</h3>
-                  <p>
-                    Suivant vos recherches en terme de budget comme en terme de
-                    produit, notre statut indépendant nous permet de vous
-                    orienter vers les fabricants que nous avons choisi pour vous
-                    afin de nous adapter à de nombreuses et différentes
-                    demandes.
-                  </p>   
-                  <h3>LES MATIÈRES</h3>
-                  <p>
-                  Laques mat, brillante ou poudrée,en céramique, béton, verre, nous pourrons vous étonner avec des façades peu courantes… ou classique en bois massif par exemple. Les façades en matériaux recyclés PET proposent des coloris actuels et tendance.
+                    Les bibliothèques sur mesure conçues par Unik Espace sont
+                    adaptées aux besoins spécifiques de chaque client, offrant
+                    un espace de rangement optimal pour les livres, les objets
+                    décoratifs et les collections personnelles. Les
+                    bibliothèques peuvent être réalisées dans une variété de
+                    styles, du traditionnel au moderne, en utilisant des
+                    matériaux de haute qualité tels que le bois massif, le
+                    stratifié, ou encore le verre et le métal, créant ainsi des
+                    pièces uniques et durables.{" "}
                   </p>
                   <p>
-                  Plan de travail suivant les exigences : la céramique aujourd&#39;hui remporte tous les suffrages : résistance à la chaleur et aux rayures avec de nombreux décors possible (même imitation bois !). La pierre naturelle – le granit – ou même le bois en lamellé massif donneront un cachet plus authentique. Et bien sûr le stratifié, qui reste un excellent rapport qualité – prix avec de nombreux décors et effets de matière.
+                    L&#39;équipe d&#39;Unik Espace est experte dans la
+                    maximisation de l&#39;espace sous escaliers en concevant des
+                    solutions sur mesure qui s&#39;adaptent parfaitement à
+                    l&#39;espace disponible et aux besoins spécifiques du
+                    client.{" "}
+                  </p>
+                  <p>
+                    Que ce soit pour créer une bibliothèque élégante et
+                    fonctionnelle ou pour transformer l&#39;espace sous
+                    escaliers en une zone pratique et esthétique, Unik Espace
+                    met son expertise et son savoir-faire au service de chaque
+                    projet.{" "}
+                  </p>
+                  <p>
+                    En travaillant en étroite collaboration avec les clients,
+                    l&#39;équipe d&#39;Unik Espace conçoit des solutions sur
+                    mesure qui optimisent l&#39;utilisation de l&#39;espace,
+                    ajoutent une touche de style unique et répondent aux besoins
+                    et aux préférences individuelles.{" "}
                   </p>
                 </div>
               </article>

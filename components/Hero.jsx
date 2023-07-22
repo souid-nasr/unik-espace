@@ -209,29 +209,6 @@ const Slider = () => {
       <SwiperSlide>
         <section
           id="hero"
-          className="hero bg-[url('../assets/img/sousescalier/sousescalier.jpg')] bg-cover	"
-        >
-          <div className="text-white uppercase bg-black/50 ">
-            <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center ">
-              <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-2">
-                Sous escaliers{" "}
-              </h1>
-              <div className="flex justify-center items-center"></div>
-              <p className="md:text-2xl text-xl font-bold text-white">
-                Sublimez votre intérieur afin qu&#39;il vous ressemble ! !
-              </p>
-              <Link href="/portfolio/sousescaliers">
-                <button className="uppercase  cta-btn">
-                  voir toutes les Sous escaliers{" "}
-                </button>
-              </Link>
-            </div>
-          </div>
-        </section>{" "}
-      </SwiperSlide>
-      <SwiperSlide>
-        <section
-          id="hero"
           className="hero bg-[url('../assets/img/chambre/chambre.jpg')] bg-cover	"
         >
           <div className="text-white uppercase bg-black/50 ">

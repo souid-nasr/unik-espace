@@ -63,22 +63,6 @@ function Chambres() {
             <div className="col-lg-7">
               <article className="product-details">
                 <div className="content">
-                  <p>
-                    Le confort du couchage de vos enfants est optimal car nos
-                    produits proposent un vrai sommier et un matelas de qualité.
-                    De nombreuses compositions sont possibles autour du lit
-                    relevable afin de venir l’intégrer au mieux dans l’espace
-                    disponible. Entouré par une composition bibliothèque ou un
-                    bureau.
-                  </p>
-
-                  <blockquote>
-                    <p>
-                      Nos solutions sur mesures permettent une optimisation de
-                      n’importe quel espace
-                    </p>
-                  </blockquote>
-
                   <h3>CHAMBRE D’ENFANTS</h3>
                   <p>
                     Unik Espace met également son savoir-faire et sa créativité

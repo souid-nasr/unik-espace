@@ -63,25 +63,6 @@ function Habillages() {
             <div className="col-lg-7">
               <article className="product-details">
                 <div className="content">
-                  <p>
-                    L’aménagement des habillages est la solution par excellence
-                    pour gagner de la place. Nos produits permettent un
-                    alignement parfait avec les pentes d’ escaliers ou des
-                    combles pour un rendu parfait.
-                  </p>
-
-                  <p>
-                    Spécialiste de l’aménagement intérieur sur mesure depuis
-                    sept ans, nous vous accompagnerons à la réalisation de votre
-                    projet.
-                  </p>
-
-                  <blockquote>
-                    <p>
-                      S’adapter aux contraintes est la force de notre métier
-                    </p>
-                  </blockquote>
-
                   <h3>HABILLAGE MURAL</h3>
                   <p>
                     Unik Espace excelle dans la création d’habillages muraux en

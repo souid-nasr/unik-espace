@@ -52,17 +52,6 @@ function Dressings() {
               <article className="product-details">
                 <h2 className="title">DRESSINGS SUR MESURE</h2>
                 <div className="content">
-                  <blockquote>
-                    <p>
-                      L’accompagnement et le conseil pour un dressing à votre
-                      image
-                    </p>
-                  </blockquote>
-                  <p>
-                    Le dressing est un espace dédié au rangement de vêtements.
-                    Nous vous accompagnons dans votre réflexion afin d’optimiser
-                    au maximum la place disponible.{" "}
-                  </p>
                   <h3> DRESSING MODERNE</h3>
                   <p>
                     Les dressings modernes se distinguent par leur design épuré

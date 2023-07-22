@@ -63,41 +63,33 @@ function Separation() {
             <div className="col-lg-7">
               <article className="product-details">
                 <div className="content">
-                  <p>
-                  Les séparations de pièces  sont une solution sans beaucoup de travaux pour isoler un espace.
-                  </p>
-
-                  <p>
-                    Spécialiste de l’aménagement intérieur sur mesure depuis
-                    sept ans, nous vous accompagnerons à la réalisation de votre
-                    projet.
-                  </p>
-
-                  <blockquote>
-                    <p>
-                    L’accompagnement et le conseil pour un projet qui vous ressemble                    </p>
-                  </blockquote>
-
                   <h3> HABILLAGE D’ENTRÉE ET SÉPARATIONS</h3>
                   <p>
-                  Les habillages d’entrées conçus par Unik Espace sont réalisés avec des bois nobles de qualité
-supérieure tels que le chêne, le frêne ou l’hêtre. Ils offrent une esthétique chaleureuse et élégante,
-personnalisable selon les préférences du client en termes de finitions, de motifs et d’éléments décoratifs.
+                    Les habillages d’entrées conçus par Unik Espace sont
+                    réalisés avec des bois nobles de qualité supérieure tels que
+                    le chêne, le frêne ou l’hêtre. Ils offrent une esthétique
+                    chaleureuse et élégante, personnalisable selon les
+                    préférences du client en termes de finitions, de motifs et
+                    d’éléments décoratifs.
                   </p>
                   <p>
-                  Les séparations en bois noble et en panneau stratifié permettent de diviser les espaces de manière
-élégante et fonctionnelle, créant des zones distinctes dans des espaces tels que les salons, les salles à
-manger ou les bureaux. Elles s’adaptent harmonieusement à la décoration intérieure grâce à une variété
-de finitions et de styles.
+                    Les séparations en bois noble et en panneau stratifié
+                    permettent de diviser les espaces de manière élégante et
+                    fonctionnelle, créant des zones distinctes dans des espaces
+                    tels que les salons, les salles à manger ou les bureaux.
+                    Elles s’adaptent harmonieusement à la décoration intérieure
+                    grâce à une variété de finitions et de styles.
                   </p>
 
                   <p>
-                  L’équipe d’Unik Espace travaille en étroite collaboration avec les clients, comprenant leurs besoins et
-leurs préférences spécifiques en matière d’habillages d’entrées et de séparations en bois noble et en
-panneau stratifié. Leur expertise et leur savoir-faire leur permettent de concevoir des solutions sur
-mesure répondant aux exigences esthétiques et fonctionnelles de chaque projet.
+                    L’équipe d’Unik Espace travaille en étroite collaboration
+                    avec les clients, comprenant leurs besoins et leurs
+                    préférences spécifiques en matière d’habillages d’entrées et
+                    de séparations en bois noble et en panneau stratifié. Leur
+                    expertise et leur savoir-faire leur permettent de concevoir
+                    des solutions sur mesure répondant aux exigences esthétiques
+                    et fonctionnelles de chaque projet.
                   </p>
-
                 </div>
               </article>
             </div>

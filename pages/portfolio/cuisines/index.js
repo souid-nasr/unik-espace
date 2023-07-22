@@ -73,20 +73,7 @@ function Cuisine() {
             <div className="col-lg-7">
               <article className="product-details">
                 <div className="content">
-                  <h3>
-                    {" "}
-                    Un cuisiniste, tel que nous le concevons, doit avant tout
-                    prendre le temps de vous connaître.
-                  </h3>
-                  <p>
-                    Vous écoutez, ce qui doit nous permettre non pas de « vous
-                    proposer nos cuisines » mais surtout de réaliser VOTRE
-                    cuisine.
-                  </p>
-                  <p>
-                    Prenons le temps et discutons-en ensemble… qu&#39;importe le
-                    style pourvu qu&#39;on ait l&#39;ivresse !
-                  </p>
+
 
                   <h3>CUISINE MODERNE</h3>
                   <p>

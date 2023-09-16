@@ -28,7 +28,7 @@ function Products() {
     {
       _id: "id" + Math.random().toString(16).slice(2),
       url: bibliotheques,
-      title: "Bibliotheques",
+      title: "Bibliotheque",
       path: "/portfolio/bibliotheques",
     },
     {
